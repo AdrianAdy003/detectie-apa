@@ -1,0 +1,55 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import WhatsAppFloating from '../components/WhatsAppFloating.astro';
+import JsonLd from '../components/JsonLd.astro';
+import { SITE_URL, SITE_NAME } from '../config';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  ogType?: 'website' | 'article';
+}
+
+const { title, description, path, jsonLd, ogType = 'website' } = Astro.props;
+
+const canonicalURL = new URL(path, SITE_URL).toString();
+const fullTitle = `${title} | ${SITE_NAME}`;
+---
+
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:locale" content="ro_RO" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    {jsonLd && <JsonLd data={jsonLd} />}
+  </head>
+  <body>
+    <a href="#continut" class="skip-link">Sari la conținut</a>
+    <Header />
+    <main id="continut">
+      <slot />
+    </main>
+    <Footer />
+    <WhatsAppFloating />
+  </body>
+</html>

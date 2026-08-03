@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localBusinessJsonLd } from '../lib/jsonld';
+import { PHONE_DISPLAY, PHONE_E164, CONTACT_EMAIL, WHATSAPP_URL, SERVICE_AREAS } from '../config';
+
+const title = 'Contact';
+const description = 'Contactează-ne pentru o evaluare de detecție a apei subterane: telefon, e-mail sau WhatsApp.';
+---
+
+<BaseLayout title={title} description={description} path="/contact/" jsonLd={localBusinessJsonLd()}>
+  <section class="page-header container">
+    <h1>Contact</h1>
+    <p>
+      Cel mai rapid ne găsești pe WhatsApp. Îți răspundem cu detalii despre disponibilitate și
+      costul unei evaluări.
+    </p>
+  </section>
+
+  <section class="container card-grid">
+    <div class="card">
+      <h3>Telefon</h3>
+      <p><a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a></p>
+    </div>
+    <div class="card">
+      <h3>WhatsApp</h3>
+      <p>
+        <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+          Scrie-ne acum
+        </a>
+      </p>
+    </div>
+    <div class="card">
+      <h3>E-mail</h3>
+      <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Zone deservite</h2>
+    <p>{SERVICE_AREAS.join(', ')}.</p>
+  </section>
+</BaseLayout>

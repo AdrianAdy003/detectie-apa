@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Cum funcționează detecția apei subterane';
+const description =
+  'Explicăm pas cu pas metoda geoelectrică non-invazivă folosită pentru localizarea apei subterane, fără foraj de probă.';
+---
+
+<BaseLayout title={title} description={description} path="/cum-functioneaza/">
+  <section class="page-header container">
+    <h1>Cum funcționează</h1>
+    <p>
+      Metoda pe care o folosim este non-invazivă și se bazează pe un principiu simplu din
+      geofizică: rezistivitatea electrică a solului variază în funcție de compoziția și de
+      prezența apei în subteran. Nu presupune forare, sondaj sau intervenție asupra terenului.
+    </p>
+  </section>
+
+  <section class="container prose">
+    <h2>1. Măsurarea rezistivității electrice a subsolului</h2>
+    <p>
+      Aplicăm un curent electric slab la nivelul solului și măsurăm modul în care acesta se
+      propagă. Zonele saturate cu apă conduc electricitatea diferit față de rocă sau sol uscat,
+      iar aceste diferențe pot fi detectate și interpretate.
+    </p>
+
+    <h2>2. Interpretarea datelor din teren</h2>
+    <p>
+      Datele culese sunt analizate pentru a identifica zonele cu probabilitate ridicată de a
+      conține un strat acvifer, precum și pentru a estima orientativ adâncimea la care acesta
+      s-ar putea afla.
+    </p>
+
+    <h2>3. Recomandarea punctului de foraj</h2>
+    <p>
+      Pe baza măsurătorilor, recomandăm unul sau mai multe puncte cu potențial, însoțite de
+      observațiile relevante din teren, astfel încât decizia de a fora să fie una informată.
+    </p>
+
+    <h2>4. Limitele metodei</h2>
+    <p>
+      Ca orice metodă geofizică indirectă, rezultatele sunt estimări bazate pe măsurători, nu o
+      garanție absolută a debitului sau calității apei. Comunicăm onest gradul de încredere al
+      fiecărei recomandări, pe baza condițiilor din teren.
+    </p>
+  </section>
+</BaseLayout>

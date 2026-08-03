@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { localBusinessJsonLd } from '../lib/jsonld';
+import { WHATSAPP_URL, SERVICE_AREAS } from '../config';
+
+const title = 'Detecție apă subterană fără foraj';
+const description =
+  'Localizăm sursele de apă subterană printr-o metodă geoelectrică non-invazivă, fără foraj de probă. Servicii profesioniste pentru fântâni și puțuri.';
+---
+
+<BaseLayout title={title} description={description} path="/" jsonLd={localBusinessJsonLd()}>
+  <section class="hero">
+    <div class="container">
+      <h1>Găsim apa subterană înainte să sapi</h1>
+      <p>
+        Folosim o metodă geoelectrică non-invazivă, bazată pe măsurarea rezistivității electrice
+        a subsolului, pentru a estima locul, adâncimea și potențialul unei surse de apă —
+        fără forare de probă și fără să afectăm terenul.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/contact/">Solicită o ofertă</a>
+        <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+          Scrie-ne pe WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Ce facem</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Detecție geoelectrică</h3>
+        <p>
+          Măsurăm variațiile de rezistivitate electrică a solului pentru a identifica zonele cu
+          probabilitate ridicată de a conține apă subterană.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Estimare adâncime</h3>
+        <p>
+          Oferim o estimare orientativă a adâncimii la care se află stratul acvifer, utilă pentru
+          planificarea forajului.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Raport clar</h3>
+        <p>
+          Primești un raport cu punctul recomandat, adâncimea estimată și observațiile din teren,
+          fără termeni tehnici inutili.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>De ce să alegi o evaluare înainte de foraj</h2>
+    <p class="prose">
+      Un foraj executat "la noroc" poate însemna cheltuieli suplimentare dacă nu se găsește apă
+      la adâncimea sau în cantitatea dorită. O evaluare prealabilă reduce acest risc și te ajută
+      să iei o decizie informată, pe baza unor măsurători, nu a presupunerilor.
+    </p>
+  </section>
+
+  <section class="container">
+    <h2>Zone deservite</h2>
+    <p>{SERVICE_AREAS.join(', ')}. Pentru alte zone, ne poți contacta — verificăm disponibilitatea.</p>
+    <a class="btn btn-outline" href="/zone-acoperite/">Vezi zonele acoperite</a>
+  </section>
+</BaseLayout>

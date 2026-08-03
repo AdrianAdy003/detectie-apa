@@ -1,0 +1,78 @@
+---
+import { SITE_NAME, COMPANY_NAME, PHONE_DISPLAY, PHONE_E164, CONTACT_EMAIL, SERVICE_AREAS } from '../config';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-brand">{SITE_NAME}</p>
+      <p>{COMPANY_NAME}</p>
+      <p>Zone deservite: {SERVICE_AREAS.join(', ')}</p>
+    </div>
+
+    <div>
+      <p><a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a></p>
+      <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+    </div>
+
+    <nav aria-label="Navigare footer">
+      <ul>
+        <li><a href="/intrebari-frecvente/">Întrebări frecvente</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <p class="footer-note container">
+    © {year} {COMPANY_NAME}. Toate drepturile rezervate.
+  </p>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 3rem;
+    background: var(--color-primary-dark);
+    color: #eef5f4;
+    padding-block: 2.5rem 1rem;
+  }
+
+  .footer-inner {
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .site-footer a {
+    color: #eef5f4;
+  }
+
+  .site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .footer-note {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+
+  @media (min-width: 700px) {
+    .footer-inner {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

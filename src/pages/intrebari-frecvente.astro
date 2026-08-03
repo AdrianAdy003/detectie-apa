@@ -1,0 +1,38 @@
+---
+import { parse } from 'yaml';
+import faqRaw from '../data/faq.yaml?raw';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { faqPageJsonLd } from '../lib/jsonld';
+import { WHATSAPP_URL } from '../config';
+
+interface Faq {
+  question: string;
+  answer: string;
+}
+
+const faqs = parse(faqRaw) as Faq[];
+
+const title = 'Întrebări frecvente';
+const description = 'Răspunsuri la cele mai frecvente întrebări despre detecția apei subterane.';
+---
+
+<BaseLayout title={title} description={description} path="/intrebari-frecvente/" jsonLd={faqPageJsonLd(faqs)}>
+  <section class="page-header container">
+    <h1>Întrebări frecvente</h1>
+    <p>Nu găsești răspunsul pe care îl cauți?</p>
+    <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+      Întreabă-ne pe WhatsApp
+    </a>
+  </section>
+
+  <section class="container">
+    {
+      faqs.map((faq) => (
+        <div class="faq-item">
+          <h3>{faq.question}</h3>
+          <p>{faq.answer}</p>
+        </div>
+      ))
+    }
+  </section>
+</BaseLayout>

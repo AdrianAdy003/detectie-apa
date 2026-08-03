@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SERVICE_AREAS, WHATSAPP_URL } from '../config';
+
+const title = 'Zone acoperite';
+const description = 'Zonele în care oferim servicii de detecție a apei subterane.';
+---
+
+<BaseLayout title={title} description={description} path="/zone-acoperite/">
+  <section class="page-header container">
+    <h1>Zone acoperite</h1>
+    <p>
+      Ne deplasăm în mod curent în zonele de mai jos. Pentru locații din afara acestora, ne poți
+      contacta — evaluăm disponibilitatea în funcție de distanță.
+    </p>
+  </section>
+
+  <section class="container">
+    <ul class="card-grid">
+      {SERVICE_AREAS.map((zone) => (
+        <li class="card">{zone}</li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="container prose">
+    <p>Nu găsești localitatea ta pe listă?</p>
+    <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+      Întreabă-ne pe WhatsApp
+    </a>
+  </section>
+</BaseLayout>

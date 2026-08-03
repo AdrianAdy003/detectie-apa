@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { WHATSAPP_URL } from '../config';
+
+const title = 'Servicii de detecție a apei subterane';
+const description =
+  'Servicii de detecție geoelectrică a apei subterane pentru fântâni, puțuri și terenuri rezidențiale sau agricole.';
+---
+
+<BaseLayout title={title} description={description} path="/servicii/">
+  <section class="page-header container">
+    <h1>Servicii</h1>
+    <p>Evaluări geoelectrice non-invazive, adaptate tipului de teren și scopului forajului.</p>
+  </section>
+
+  <section class="container card-grid">
+    <div class="card">
+      <h3>Detecție pentru fântâni și puțuri</h3>
+      <p>
+        Evaluare pentru case, gospodării și terenuri rezidențiale, cu recomandare de punct și
+        adâncime estimată.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Detecție pentru terenuri agricole</h3>
+      <p>
+        Evaluări pe suprafețe mai mari, utile pentru irigații sau puțuri de exploatare agricolă.
+      </p>
+    </div>
+    <div class="card">
+      <h3>A doua opinie / verificare</h3>
+      <p>
+        Reverificăm un teren pe care o altă evaluare nu a găsit apă, sau înainte de un foraj cu
+        buget limitat.
+      </p>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Cum decurge o vizită</h2>
+    <p>
+      Stabilim împreună data, discutăm despre teren și accesul disponibil, efectuăm măsurătorile
+      la fața locului și îți transmitem un raport cu recomandarea și observațiile din teren.
+    </p>
+    <a class="btn btn-primary" href="/contact/">Programează o evaluare</a>
+    <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+      Scrie-ne pe WhatsApp
+    </a>
+  </section>
+</BaseLayout>

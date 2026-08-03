@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { blogPostingJsonLd } from '../../lib/jsonld';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const path = `/blog/${post.id}/`;
+const jsonLd = blogPostingJsonLd({
+  title: post.data.title,
+  description: post.data.description,
+  pubDate: post.data.pubDate,
+  updatedDate: post.data.updatedDate,
+  path,
+  author: post.data.author,
+});
+---
+
+<BaseLayout title={post.data.title} description={post.data.description} path={path} jsonLd={jsonLd} ogType="article">
+  <article class="container prose">
+    <header class="page-header">
+      <h1>{post.data.title}</h1>
+      <p class="post-meta">
+        {post.data.pubDate.toLocaleDateString('ro-RO', { year: 'numeric', month: 'long', day: 'numeric' })}
+        {' · '}{post.data.author}
+      </p>
+    </header>
+    <Content />
+  </article>
+</BaseLayout>
