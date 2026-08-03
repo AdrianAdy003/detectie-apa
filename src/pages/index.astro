@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localBusinessJsonLd } from '../lib/jsonld';
 import { WHATSAPP_URL, SERVICE_AREAS, MAX_DEPTH_METERS } from '../config';
+import GroundLayers from '../components/illustrations/GroundLayers.astro';
 
 const title = 'Detecție apă subterană fără foraj';
 const description =
@@ -10,19 +11,22 @@ const description =
 
 <BaseLayout title={title} description={description} path="/" jsonLd={localBusinessJsonLd()}>
   <section class="hero">
-    <div class="container">
-      <h1>Găsim apa subterană înainte să sapi</h1>
-      <p>
-        Folosim o metodă geoelectrică non-invazivă, bazată pe măsurarea rezistivității electrice
-        a subsolului, pentru a estima locul, adâncimea și potențialul unei surse de apă —
-        fără forare de probă și fără să afectăm terenul.
-      </p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="/contact/">Solicită o ofertă</a>
-        <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-          Scrie-ne pe WhatsApp
-        </a>
+    <div class="container hero-grid">
+      <div>
+        <h1>Găsim apa subterană înainte să sapi</h1>
+        <p>
+          Folosim o metodă geoelectrică non-invazivă, bazată pe măsurarea rezistivității electrice
+          a subsolului, pentru a estima locul, adâncimea și potențialul unei surse de apă —
+          fără forare de probă și fără să afectăm terenul.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/contact/">Solicită o ofertă</a>
+          <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+            Scrie-ne pe WhatsApp
+          </a>
+        </div>
       </div>
+      <GroundLayers />
     </div>
   </section>
 

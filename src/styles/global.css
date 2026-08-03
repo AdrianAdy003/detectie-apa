@@ -150,6 +150,19 @@ section {
   font-size: 1.05rem;
 }
 
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
