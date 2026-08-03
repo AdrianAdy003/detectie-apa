@@ -27,4 +27,4 @@ export const COMPANY_ADDRESS_COUNTRY = 'RO';
 
 // Formular de contact — Web3Forms (gratuit, fără card). Obții cheia pe web3forms.com,
 // introducând emailul firmei — primești access key-ul instant. Înlocuiește placeholder-ul de mai jos.
-export const WEB3FORMS_ACCESS_KEY = 'INLOCUIESTE-CU-CHEIA-TA-WEB3FORMS';
+export const WEB3FORMS_ACCESS_KEY = 'ef72801e-385b-4484-b8e2-0320c67aaf13';
