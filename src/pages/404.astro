@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { WHATSAPP_URL } from '../config';
+
+const title = 'Pagina nu a fost găsită';
+const description = 'Pagina căutată nu există sau a fost mutată.';
+---
+
+<BaseLayout title={title} description={description} path="/404/">
+  <section class="page-header container">
+    <h1>Pagina nu a fost găsită</h1>
+    <p>Linkul accesat nu (mai) există. Poți reveni la pagina principală sau ne poți contacta direct.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/">Înapoi la Acasă</a>
+      <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+        Scrie-ne pe WhatsApp
+      </a>
+    </div>
+  </section>
+</BaseLayout>

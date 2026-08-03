@@ -17,12 +17,14 @@ export const WHATSAPP_URL =
   'https://wa.me/40740912166?text=Bun%C4%83,%20vreau%20o%20detec%C8%9Bie';
 
 // Zone deservite — se pot extinde ulterior.
-export const SERVICE_AREAS = [
-  'București',
-  'Ilfov',
-  'Prahova',
-  'Giurgiu',
-];
+export const SERVICE_AREAS = ['Cluj', 'Alba', 'Mureș', 'Sibiu', 'Bistrița-Năsăud'];
 
-export const COMPANY_ADDRESS_LOCALITY = 'București';
+// Adâncimea maximă orientativă până la care se poate detecta (fapt tehnic, nu marcă/model).
+export const MAX_DEPTH_METERS = 300;
+
+export const COMPANY_ADDRESS_LOCALITY = 'Cluj-Napoca';
 export const COMPANY_ADDRESS_COUNTRY = 'RO';
+
+// Formular de contact — Web3Forms (gratuit, fără card). Obții cheia pe web3forms.com,
+// introducând emailul firmei — primești access key-ul instant. Înlocuiește placeholder-ul de mai jos.
+export const WEB3FORMS_ACCESS_KEY = 'INLOCUIESTE-CU-CHEIA-TA-WEB3FORMS';

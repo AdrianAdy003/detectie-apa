@@ -1,7 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localBusinessJsonLd } from '../lib/jsonld';
-import { PHONE_DISPLAY, PHONE_E164, CONTACT_EMAIL, WHATSAPP_URL, SERVICE_AREAS } from '../config';
+import {
+  PHONE_DISPLAY,
+  PHONE_E164,
+  CONTACT_EMAIL,
+  WHATSAPP_URL,
+  SERVICE_AREAS,
+  WEB3FORMS_ACCESS_KEY,
+  SITE_URL,
+} from '../config';
 
 const title = 'Contact';
 const description = 'Contactează-ne pentru o evaluare de detecție a apei subterane: telefon, e-mail sau WhatsApp.';
@@ -38,5 +46,45 @@ const description = 'Contactează-ne pentru o evaluare de detecție a apei subte
   <section class="container prose">
     <h2>Zone deservite</h2>
     <p>{SERVICE_AREAS.join(', ')}.</p>
+  </section>
+
+  <section class="container">
+    <h2>Sau lasă-ne datele tale</h2>
+    <p>Completezi în 30 de secunde, te sunăm noi înapoi.</p>
+
+    <form class="contact-form card" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+      <input type="hidden" name="subject" value="Cerere nouă de pe detectieapa.ro" />
+      <input type="hidden" name="from_name" value="Formular Detecție Apă" />
+      <input type="hidden" name="redirect" value={new URL('/contact/multumim/', SITE_URL).toString()} />
+      <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" />
+
+      <div class="form-field">
+        <label for="name">Nume și prenume</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-field">
+        <label for="phone">Telefon</label>
+        <input type="tel" id="phone" name="phone" required />
+      </div>
+
+      <div class="form-field">
+        <label for="county">Județ</label>
+        <input type="text" id="county" name="county" required />
+      </div>
+
+      <div class="form-field">
+        <label for="locality">Localitate</label>
+        <input type="text" id="locality" name="locality" required />
+      </div>
+
+      <div class="form-field form-field-full">
+        <label for="message">Mesaj (opțional)</label>
+        <textarea id="message" name="message" rows="3"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Trimite cererea</button>
+    </form>
   </section>
 </BaseLayout>

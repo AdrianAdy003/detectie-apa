@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { WHATSAPP_URL } from '../../config';
+
+const title = 'Mulțumim';
+const description = 'Am primit cererea ta. Te contactăm în cel mai scurt timp.';
+---
+
+<BaseLayout title={title} description={description} path="/contact/multumim/">
+  <section class="page-header container">
+    <h1>Mulțumim!</h1>
+    <p>
+      Am primit datele tale și te contactăm în cel mai scurt timp. Dacă vrei un răspuns mai
+      rapid, ne poți scrie direct pe WhatsApp.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+        Scrie-ne pe WhatsApp
+      </a>
+      <a class="btn btn-outline" href="/">Înapoi la Acasă</a>
+    </div>
+  </section>
+</BaseLayout>

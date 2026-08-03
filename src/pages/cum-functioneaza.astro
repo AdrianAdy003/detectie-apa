@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { MAX_DEPTH_METERS } from '../config';
 
 const title = 'Cum funcționează detecția apei subterane';
 const description =
@@ -28,7 +29,8 @@ const description =
     <p>
       Datele culese sunt analizate pentru a identifica zonele cu probabilitate ridicată de a
       conține un strat acvifer, precum și pentru a estima orientativ adâncimea la care acesta
-      s-ar putea afla.
+      s-ar putea afla. Echipamentul folosit permite măsurători până la aproximativ {MAX_DEPTH_METERS} m
+      adâncime, suficient pentru marea majoritate a situațiilor din zonele deservite.
     </p>
 
     <h2>3. Recomandarea punctului de foraj</h2>

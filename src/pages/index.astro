@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localBusinessJsonLd } from '../lib/jsonld';
-import { WHATSAPP_URL, SERVICE_AREAS } from '../config';
+import { WHATSAPP_URL, SERVICE_AREAS, MAX_DEPTH_METERS } from '../config';
 
 const title = 'Detecție apă subterană fără foraj';
 const description =
@@ -48,6 +48,33 @@ const description =
         <p>
           Primești un raport cu punctul recomandat, adâncimea estimată și observațiile din teren,
           fără termeni tehnici inutili.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>De ce să ne alegi</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Transparență</h3>
+        <p>
+          Îți explicăm clar ce arată măsurătorile și care e gradul de încredere al recomandării —
+          fără promisiuni pe care metoda nu le poate susține.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Fără foraj de probă</h3>
+        <p>
+          Evaluarea nu presupune nicio intervenție asupra terenului — doar măsurători la
+          suprafață, fără urme și fără costuri ascunse.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Acoperire până la {MAX_DEPTH_METERS} m</h3>
+        <p>
+          Putem detecta prezența apei subterane la adâncimi de până la aproximativ {MAX_DEPTH_METERS} m,
+          acoperind marea majoritate a situațiilor întâlnite în teren.
         </p>
       </div>
     </div>
