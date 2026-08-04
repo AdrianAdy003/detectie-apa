@@ -33,3 +33,6 @@ export const COMPANY_ADDRESS_COUNTRY = 'RO';
 // Formular de contact — Web3Forms (gratuit, fără card). Obții cheia pe web3forms.com,
 // introducând emailul firmei — primești access key-ul instant. Înlocuiește placeholder-ul de mai jos.
 export const WEB3FORMS_ACCESS_KEY = 'ef72801e-385b-4484-b8e2-0320c67aaf13';
+
+// Google Analytics (GA4). Se încarcă doar în build-ul de producție (nu la `npm run dev`).
+export const GA_MEASUREMENT_ID = 'G-6VXZDHBC8Y';

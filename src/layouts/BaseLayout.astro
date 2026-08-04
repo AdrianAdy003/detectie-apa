@@ -3,7 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import WhatsAppFloating from '../components/WhatsAppFloating.astro';
 import JsonLd from '../components/JsonLd.astro';
-import { SITE_URL, SITE_NAME } from '../config';
+import { SITE_URL, SITE_NAME, GA_MEASUREMENT_ID } from '../config';
 import '../styles/global.css';
 
 interface Props {
@@ -44,6 +44,20 @@ const fullTitle = `${title} | ${SITE_NAME}`;
     <meta name="twitter:description" content={description} />
 
     {jsonLd && <JsonLd data={jsonLd} />}
+
+    {import.meta.env.PROD && GA_MEASUREMENT_ID && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+        <script define:vars={{ GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', GA_MEASUREMENT_ID);
+        </script>
+      </>
+    )}
   </head>
   <body>
     <a href="#continut" class="skip-link">Sari la conținut</a>
