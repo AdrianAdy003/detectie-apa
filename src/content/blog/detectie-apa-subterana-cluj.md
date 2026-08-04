@@ -1,5 +1,5 @@
 ---
-title: "Detecție apă subterană în Cluj: ce trebuie să știi înainte de foraj"
+title: "Detecție apă subterană în Cluj"
 description: "Ce presupune o evaluare geoelectrică pentru un teren din județul Cluj și zonele învecinate, înainte de a decide un foraj de fântână sau puț."
 pubDate: 2026-07-08
 author: "Echipa Detecție Apă"

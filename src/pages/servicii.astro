@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { WHATSAPP_URL } from '../config';
+import { WHATSAPP_URL, SERVICE_PRICE_LEI, MAX_DEPTH_METERS } from '../config';
 
 const title = 'Servicii de detecție a apei subterane';
 const description =
@@ -11,6 +11,9 @@ const description =
   <section class="page-header container">
     <h1>Servicii</h1>
     <p>Evaluări geoelectrice non-invazive, adaptate tipului de teren și scopului forajului.</p>
+    <p>
+      Cost standard: <strong>{SERVICE_PRICE_LEI} lei</strong> / evaluare · Acoperire până la <strong>{MAX_DEPTH_METERS} m</strong> adâncime. Detalii complete în <a href="/termeni-si-conditii/">Termeni și condiții</a>.
+    </p>
   </section>
 
   <section class="container card-grid">
@@ -46,5 +49,12 @@ const description =
     <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
       Scrie-ne pe WhatsApp
     </a>
+  </section>
+
+  <section class="container prose">
+    <h2>Citește mai mult</h2>
+    <p>
+      Vrei detalii suplimentare înainte să programezi? Vezi <a href="/blog/cat-costa-detectia-apei-subterane/">cât costă detecția apei subterane</a> sau, dacă ești din zona Cluj, <a href="/blog/detectie-apa-subterana-cluj/">ce trebuie să știi despre terenurile din Cluj</a>.
+    </p>
   </section>
 </BaseLayout>

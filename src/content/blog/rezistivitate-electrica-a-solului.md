@@ -1,5 +1,5 @@
 ---
-title: "Ce este rezistivitatea electrică a solului și cum ajută la găsirea apei"
+title: "Ce este rezistivitatea electrică a solului"
 description: "Explicăm, pe înțelesul tuturor, ce este rezistivitatea electrică a solului și cum această proprietate fizică ajută la localizarea apei subterane."
 pubDate: 2026-05-22
 author: "Echipa Detecție Apă"

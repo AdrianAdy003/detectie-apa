@@ -122,6 +122,21 @@ section {
   padding: 1.5rem;
 }
 
+a.card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+
+a.card:hover {
+  border-color: var(--color-primary);
+}
+
+a.card h3 {
+  color: var(--color-primary-dark);
+}
+
 .card-grid {
   display: grid;
   gap: 1.25rem;

@@ -7,6 +7,7 @@ import {
   SERVICE_AREAS,
   COMPANY_ADDRESS_LOCALITY,
   COMPANY_ADDRESS_COUNTRY,
+  SERVICE_PRICE_LEI,
 } from '../config';
 
 export function localBusinessJsonLd() {
@@ -17,6 +18,7 @@ export function localBusinessJsonLd() {
     url: SITE_URL,
     telephone: PHONE_E164,
     email: CONTACT_EMAIL,
+    priceRange: `${SERVICE_PRICE_LEI} RON`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: COMPANY_ADDRESS_LOCALITY,
