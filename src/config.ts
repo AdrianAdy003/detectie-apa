@@ -4,7 +4,9 @@
 export const SITE_URL = 'https://detectieapa.ro';
 
 export const SITE_NAME = 'Detecție Apă';
-export const COMPANY_NAME = 'Detecție Apă SRL';
+// Firma e în curs de înființare — se folosește doar numele de brand, fără forma juridică
+// (SRL) și fără CUI/Reg. Com. inventate. Actualizează aici odată ce firma e înregistrată.
+export const COMPANY_NAME = 'Detecție Apă';
 
 export const PHONE_DISPLAY = '0740 912 166';
 export const PHONE_E164 = '+40740912166';
@@ -21,6 +23,9 @@ export const SERVICE_AREAS = ['Cluj', 'Alba', 'Mureș', 'Sibiu', 'Bistrița-Năs
 
 // Adâncimea maximă orientativă până la care se poate detecta (fapt tehnic, nu marcă/model).
 export const MAX_DEPTH_METERS = 300;
+
+// Costul standard al unei evaluări (lei).
+export const SERVICE_PRICE_LEI = 500;
 
 export const COMPANY_ADDRESS_LOCALITY = 'Cluj-Napoca';
 export const COMPANY_ADDRESS_COUNTRY = 'RO';

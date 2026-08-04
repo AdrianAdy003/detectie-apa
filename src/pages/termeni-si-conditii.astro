@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {
+  SITE_NAME,
+  SITE_URL,
+  COMPANY_NAME,
+  PHONE_DISPLAY,
+  PHONE_E164,
+  CONTACT_EMAIL,
+  SERVICE_AREAS,
+  SERVICE_PRICE_LEI,
+  MAX_DEPTH_METERS,
+} from '../config';
+
+const title = 'Termeni și condiții';
+const description = `Termenii și condițiile de utilizare a serviciilor ${SITE_NAME}.`;
+
+const lastUpdated = new Date().toLocaleDateString('ro-RO', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={title} description={description} path="/termeni-si-conditii/">
+  <section class="page-header container">
+    <h1>Termeni și condiții</h1>
+    <p>Ultima actualizare: {lastUpdated}</p>
+  </section>
+
+  <section class="container prose">
+    <h2>1. Despre acești termeni</h2>
+    <p>
+      Acești termeni și condiții reglementează utilizarea site-ului {SITE_URL} și furnizarea
+      serviciilor de detecție a apei subterane de către {COMPANY_NAME}. Prin solicitarea unei
+      evaluări sau prin utilizarea site-ului, ești de acord cu prevederile de mai jos.
+    </p>
+
+    <h2>2. Descrierea serviciului</h2>
+    <p>
+      {COMPANY_NAME} oferă servicii de detecție a apei subterane printr-o metodă geoelectrică
+      non-invazivă, bazată pe măsurarea rezistivității electrice a subsolului. Serviciul nu
+      presupune foraj de probă și nu implică nicio intervenție fizică asupra terenului.
+      Echipamentul folosit permite măsurători orientative până la aproximativ {MAX_DEPTH_METERS} m
+      adâncime.
+    </p>
+    <p>
+      Rezultatul unei evaluări constă într-un raport cu punctul (punctele) recomandat(e),
+      adâncimea estimată și observațiile relevante din teren.
+    </p>
+
+    <h2>3. Natura estimativă a rezultatelor</h2>
+    <p>
+      Metoda geoelectrică este o metodă geofizică indirectă. Rezultatele furnizate reprezintă
+      estimări realizate pe baza măsurătorilor efectuate la fața locului și a interpretării
+      acestora, nu o garanție absolută a prezenței, debitului sau calității apei subterane.
+      Comunicăm onest gradul de încredere al fiecărei recomandări, în funcție de condițiile
+      întâlnite în teren.
+    </p>
+
+    <h2>4. Cost</h2>
+    <p>
+      Costul standard al unei evaluări este de {SERVICE_PRICE_LEI} lei. Costul final poate fi
+      confirmat la momentul programării, în funcție de locație, suprafața terenului și
+      particularitățile solicitării.
+    </p>
+
+    <h2>5. Zone deservite</h2>
+    <p>
+      Serviciile sunt oferite, în mod curent, în următoarele zone: {SERVICE_AREAS.join(', ')}.
+      Pentru locații din afara acestor zone, disponibilitatea se confirmă individual, prin
+      contactare directă.
+    </p>
+
+    <h2>6. Programare și desfășurarea vizitei</h2>
+    <p>
+      Programarea se face prin telefon, WhatsApp, e-mail sau formularul de contact de pe site.
+      Data și ora vizitei se stabilesc de comun acord. Clientul are obligația de a asigura accesul
+      pe teren la data stabilită; în cazul în care accesul nu poate fi asigurat, vizita se
+      reprogramează.
+    </p>
+
+    <h2>7. Limitarea răspunderii</h2>
+    <p>
+      {COMPANY_NAME} nu poate fi ținută răspunzătoare pentru rezultatele unui foraj executat pe
+      baza recomandărilor furnizate, întrucât decizia finală de a fora și execuția forajului
+      aparțin clientului și/sau echipei de foraj angajate de acesta. Recomandările au caracter
+      orientativ și nu constituie o garanție contractuală a găsirii apei.
+    </p>
+
+    <h2>8. Conținutul site-ului</h2>
+    <p>
+      Conținutul acestui site (texte, ilustrații, structură) aparține {COMPANY_NAME} și nu poate
+      fi reprodus fără acord prealabil, cu excepția citării rezonabile cu menționarea sursei.
+    </p>
+
+    <h2>9. Modificarea termenilor</h2>
+    <p>
+      Acești termeni pot fi actualizați periodic. Versiunea aplicabilă este cea publicată pe site
+      la data solicitării serviciului.
+    </p>
+
+    <h2>10. Contact</h2>
+    <p>
+      Pentru întrebări legate de acești termeni, ne poți contacta la <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> sau
+      la <a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a>.
+    </p>
+  </section>
+</BaseLayout>
