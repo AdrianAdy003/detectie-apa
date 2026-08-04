@@ -16,3 +16,6 @@ npm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# imagini de referinta cu drepturi de autor neclare - nu se publica, nu se comite
+reference-images-nepublicate/
