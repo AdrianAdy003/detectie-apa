@@ -7,5 +7,10 @@ import { SITE_URL } from './src/config';
 export default defineConfig({
   site: SITE_URL,
   trailingSlash: 'always',
-  integrations: [sitemap(), mdx()],
+  integrations: [
+    sitemap({
+      filter: (page) => !page.includes('/contact/multumim/'),
+    }),
+    mdx(),
+  ],
 });
