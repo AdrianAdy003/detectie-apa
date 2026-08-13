@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_NAME, COMPANY_NAME, CONTACT_EMAIL, PHONE_DISPLAY, PHONE_E164 } from '../config';
+
+const title = 'Politica de confidențialitate';
+const description = `Ce date personale colectează ${SITE_NAME}, în ce scop și ce drepturi ai conform GDPR.`;
+
+const lastUpdated = new Date().toLocaleDateString('ro-RO', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout title={title} description={description} path="/politica-de-confidentialitate/">
+  <section class="page-header container">
+    <h1>Politica de confidențialitate</h1>
+    <p>Ultima actualizare: {lastUpdated}</p>
+  </section>
+
+  <section class="container prose">
+    <h2>1. Cine suntem</h2>
+    <p>
+      Această politică explică ce date personale colectează {COMPANY_NAME} prin intermediul
+      site-ului {SITE_NAME}, în ce scop le folosim, cui le transmitem și ce drepturi ai, conform
+      Regulamentului General privind Protecția Datelor (GDPR — Regulamentul UE 2016/679).
+    </p>
+
+    <h2>2. Ce date colectăm</h2>
+    <p>Colectăm date personale în două situații:</p>
+    <p>
+      <strong>a) Când ne contactezi prin formular</strong> (pagina Contact): nume și prenume,
+      număr de telefon, județ, localitate și, opțional, un mesaj. Aceste date sunt trimise prin
+      serviciul Web3Forms și ajung direct în adresa noastră de e-mail.
+    </p>
+    <p>
+      <strong>b) Când navighezi pe site</strong>: prin Google Analytics colectăm date statistice
+      despre vizită (pagini accesate, durata vizitei, tip de dispozitiv, provenență aproximativă),
+      folosind cookie-uri. Detalii suplimentare despre acestea găsești în
+      <a href="/termeni-si-conditii/">Termeni și condiții</a>.
+    </p>
+    <p>
+      Nu colectăm date prin telefon sau WhatsApp în afara conversației în sine — acestea rămân în
+      aplicațiile respective, conform politicilor lor proprii.
+    </p>
+
+    <h2>3. De ce colectăm aceste date</h2>
+    <p>
+      Folosim datele din formularul de contact exclusiv pentru a răspunde solicitării tale și
+      pentru a programa, dacă e cazul, o evaluare. Temeiul legal este consimțământul tău, exprimat
+      prin completarea și trimiterea formularului.
+    </p>
+    <p>
+      Folosim datele din Google Analytics pentru a înțelege cum este folosit site-ul și pentru a-l
+      îmbunătăți. Temeiul legal este interesul nostru legitim de a menține un site funcțional și
+      relevant.
+    </p>
+
+    <h2>4. Cui transmitem datele</h2>
+    <p>
+      Datele din formularul de contact sunt procesate de <strong>Web3Forms</strong>, un serviciu
+      terț care ne transmite mesajele prin e-mail, fără a le stoca pe termen lung în numele
+      nostru. Datele de trafic sunt procesate de <strong>Google</strong>, prin Google Analytics.
+      Nu vindem și nu închiriem datele tale niciunei terțe părți în scopuri de marketing.
+    </p>
+
+    <h2>5. Cât timp păstrăm datele</h2>
+    <p>
+      Datele transmise prin formularul de contact sunt păstrate în corespondența noastră de
+      e-mail cât timp este necesar pentru gestionarea solicitării și, ulterior, pentru evidența
+      colaborării, dacă aceasta se concretizează. Poți solicita oricând ștergerea lor, conform
+      secțiunii de mai jos.
+    </p>
+
+    <h2>6. Drepturile tale, conform GDPR</h2>
+    <p>În legătură cu datele tale personale, ai dreptul:</p>
+    <ul>
+      <li>de acces — să afli ce date deținem despre tine;</li>
+      <li>de rectificare — să corectezi date incorecte sau incomplete;</li>
+      <li>de ștergere — să soliciți ștergerea datelor, atunci când nu mai există un motiv legal pentru păstrarea lor;</li>
+      <li>de restricționare — să limitezi modul în care folosim datele tale;</li>
+      <li>de opoziție — să te opui prelucrării bazate pe interes legitim;</li>
+      <li>la portabilitate — să primești datele într-un format structurat;</li>
+      <li>de a depune o plângere la <a href="https://www.dataprotection.ro/" target="_blank" rel="noopener noreferrer">Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP)</a>.</li>
+    </ul>
+    <p>
+      Pentru a-ți exercita oricare dintre aceste drepturi, ne poți contacta la
+      <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> sau la <a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a>.
+    </p>
+
+    <h2>7. Securitatea datelor</h2>
+    <p>
+      Site-ul este servit exclusiv prin conexiune securizată (HTTPS). Nu stocăm datele din
+      formular într-o bază de date proprie — acestea ajung direct prin e-mail, reducând riscul
+      asociat unei baze de date centralizate.
+    </p>
+
+    <h2>8. Modificarea acestei politici</h2>
+    <p>
+      Această politică poate fi actualizată periodic. Versiunea aplicabilă este cea publicată pe
+      site la momentul respectiv.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+      Pentru orice întrebare legată de protecția datelor tale personale, ne poți scrie la
+      <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+    </p>
+  </section>
+</BaseLayout>
