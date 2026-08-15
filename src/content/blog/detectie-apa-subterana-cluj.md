@@ -50,4 +50,9 @@ sus, disponibilitatea se confirmă individual, la contactare.
 
 Dacă ai un teren în Cluj sau în județele învecinate și iei în calcul un foraj de fântână sau puț,
 o evaluare geoelectrică prealabilă îți oferă o bază reală de decizie, nu doar presupuneri bazate
-pe terenurile vecinilor. Ne poți [contacta](/contact/) pentru o programare.
+pe terenurile vecinilor.
+
+## Programează o evaluare
+
+Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
+[contactează-ne](/contact/) direct pentru o programare.

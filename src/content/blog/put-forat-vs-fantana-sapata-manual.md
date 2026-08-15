@@ -47,4 +47,9 @@ apa.
 
 Nu există un răspuns universal "care e mai bună" — depinde de adâncimea estimată a apei pe terenul
 tău și de bugetul disponibil. O evaluare prealabilă îți oferă informația de care ai nevoie ca să
-alegi în cunoștință de cauză. Ne poți [contacta](/contact/) pentru o evaluare a terenului tău.
+alegi în cunoștință de cauză.
+
+## Programează o evaluare
+
+Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
+[contactează-ne](/contact/) pentru o evaluare a terenului tău.

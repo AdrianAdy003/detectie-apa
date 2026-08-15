@@ -51,3 +51,8 @@ probă.
 Dacă ai observat unul sau mai multe dintre aceste semne pe terenul tău, e un punct bun de
 plecare — dar o [evaluare geoelectrică](/servicii/) îți oferă o imagine mult mai clară înainte
 de a lua decizia de a fora.
+
+## Programează o evaluare
+
+Vezi detalii despre [serviciile noastre](/servicii/) sau [contactează-ne](/contact/) direct
+pentru o programare.

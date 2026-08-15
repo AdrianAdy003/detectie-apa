@@ -44,5 +44,8 @@ Costul standard rămâne cel valabil pentru toate zonele deservite, detaliat în
 [Termeni și condiții](/termeni-si-conditii/). Costul final se confirmă la programare, în funcție
 de locația exactă din județ.
 
-Dacă ai un teren în Alba și iei în calcul un foraj, ne poți [contacta](/contact/) pentru o
-evaluare înainte de a angaja costurile forajului propriu-zis.
+## Programează o evaluare
+
+Dacă ai un teren în Alba și iei în calcul un foraj, vezi detalii despre
+[serviciul nostru de detecție a apei subterane](/servicii/) sau [contactează-ne](/contact/)
+pentru o evaluare, înainte de a angaja costurile forajului propriu-zis.

@@ -45,4 +45,9 @@ surprize neplăcute — fie un foraj oprit prea devreme, fie unul continuat inut
 
 Nu te baza pe adâncimea fântânii vecinului ca reper pentru terenul tău — variațiile locale pot fi
 mari chiar și pe distanțe mici. O evaluare a terenului tău specific rămâne cea mai sigură cale de
-a afla la ce să te aștepți. Ne poți [contacta](/contact/) pentru o evaluare.
+a afla la ce să te aștepți.
+
+## Programează o evaluare
+
+Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
+[contactează-ne](/contact/) pentru o evaluare.

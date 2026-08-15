@@ -47,5 +47,10 @@ o schimbare vizibilă a gustului, mirosului sau aspectului apei.
 
 Rolul nostru este identificarea sursei de apă subterană, printr-o evaluare geoelectrică, înainte
 de foraj — nu testarea calității apei după execuție. Recomandăm însă, indiferent de firma aleasă
-pentru foraj, o analiză la un laborator acreditat înainte de a folosi apa ca sursă potabilă. Dacă
-ești la etapa de identificare a unei surse, ne poți [contacta](/contact/) pentru o evaluare.
+pentru foraj, o analiză la un laborator acreditat înainte de a folosi apa ca sursă potabilă.
+
+## Programează o evaluare
+
+Dacă ești la etapa de identificare a unei surse, vezi detalii despre
+[serviciul nostru de detecție a apei subterane](/servicii/) sau [contactează-ne](/contact/)
+pentru o evaluare.

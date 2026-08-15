@@ -47,5 +47,10 @@ multe despre asta în articolul dedicat
 
 Rolul nostru este identificarea sursei de apă subterană, înainte de foraj — nu întreținerea
 puțului odată executat. Informațiile de mai sus sunt gândite să te ajute să ai un puț funcțional
-pe termen lung, indiferent de firma cu care ai lucrat la foraj. Dacă abia iei în calcul un foraj
-nou, ne poți [contacta](/contact/) pentru o evaluare a terenului.
+pe termen lung, indiferent de firma cu care ai lucrat la foraj.
+
+## Programează o evaluare
+
+Dacă abia iei în calcul un foraj nou, vezi detalii despre
+[serviciul nostru de detecție a apei subterane](/servicii/) sau [contactează-ne](/contact/)
+pentru o evaluare a terenului.

@@ -42,4 +42,9 @@ geoelectrice non-invazive, fără foraj de probă. Sibiu este parte din
 ## Cost
 
 Costul standard al unei evaluări e detaliat în [Termeni și condiții](/termeni-si-conditii/) și se
-aplică și pentru terenurile din Sibiu. Pentru o programare, ne poți [contacta](/contact/) direct.
+aplică și pentru terenurile din Sibiu.
+
+## Programează o evaluare
+
+Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
+[contactează-ne](/contact/) direct pentru o programare.
