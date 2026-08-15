@@ -4,6 +4,14 @@ import { SERVICE_AREAS, WHATSAPP_URL } from '../config';
 
 const title = 'Zone acoperite';
 const description = 'Zonele în care oferim servicii de detecție a apei subterane.';
+
+const zoneArticleSlugs: Record<string, string> = {
+  Cluj: 'detectie-apa-subterana-cluj',
+  Alba: 'detectie-apa-subterana-alba',
+  Mureș: 'detectie-apa-subterana-mures',
+  Sibiu: 'detectie-apa-subterana-sibiu',
+  'Bistrița-Năsăud': 'detectie-apa-subterana-bistrita-nasaud',
+};
 ---
 
 <BaseLayout title={title} description={description} path="/zone-acoperite/">
@@ -17,9 +25,20 @@ const description = 'Zonele în care oferim servicii de detecție a apei subtera
 
   <section class="container">
     <ul class="card-grid">
-      {SERVICE_AREAS.map((zone) => (
-        <li class="card">{zone}</li>
-      ))}
+      {SERVICE_AREAS.map((zone) => {
+        const slug = zoneArticleSlugs[zone];
+        return (
+          <li class="card">
+            {zone}
+            {slug && (
+              <>
+                {' — '}
+                <a href={`/blog/${slug}/`}>citește articolul dedicat</a>
+              </>
+            )}
+          </li>
+        );
+      })}
     </ul>
   </section>
 
@@ -28,11 +47,5 @@ const description = 'Zonele în care oferim servicii de detecție a apei subtera
     <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
       Întreabă-ne pe WhatsApp
     </a>
-  </section>
-
-  <section class="container prose">
-    <p>
-      Ești din județul Cluj? Am scris un articol dedicat: <a href="/blog/detectie-apa-subterana-cluj/">detecție apă subterană în Cluj</a>.
-    </p>
   </section>
 </BaseLayout>
