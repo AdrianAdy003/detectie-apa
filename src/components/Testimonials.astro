@@ -1,0 +1,48 @@
+---
+import { parse } from 'yaml';
+import testimonialsRaw from '../data/testimonials.yaml?raw';
+
+interface Testimonial {
+  name: string;
+  location: string;
+  rating: number;
+  text: string;
+}
+
+const testimonials = (parse(testimonialsRaw) as Testimonial[] | null) ?? [];
+---
+
+{testimonials.length > 0 && (
+  <section class="container">
+    <h2>Ce spun clienții</h2>
+    <div class="card-grid">
+      {testimonials.map((t) => (
+        <div class="card testimonial-card">
+          <p class="testimonial-stars" aria-label={`Notă: ${t.rating} din 5 stele`}>
+            {'★'.repeat(t.rating)}{'☆'.repeat(Math.max(0, 5 - t.rating))}
+          </p>
+          <p class="testimonial-text">"{t.text}"</p>
+          <p class="testimonial-author">{t.name} · {t.location}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .testimonial-stars {
+    color: #f2b705;
+    letter-spacing: 0.1rem;
+    margin: 0 0 0.6rem;
+  }
+
+  .testimonial-text {
+    color: var(--color-text);
+  }
+
+  .testimonial-author {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+</style>

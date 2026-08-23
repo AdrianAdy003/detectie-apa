@@ -12,6 +12,17 @@ interface Faq {
 
 const faqs = parse(faqRaw) as Faq[];
 
+const DIACRITICS_RE = new RegExp('[̀-ͯ]', 'g');
+
+function slugify(text: string): string {
+  return text
+    .normalize('NFD')
+    .replace(DIACRITICS_RE, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 const title = 'Întrebări frecvente';
 const description = 'Răspunsuri la cele mai frecvente întrebări despre detecția apei subterane.';
 ---
@@ -28,7 +39,7 @@ const description = 'Răspunsuri la cele mai frecvente întrebări despre detec�
   <section class="container">
     {
       faqs.map((faq) => (
-        <div class="faq-item">
+        <div class="faq-item" id={slugify(faq.question)}>
           <h3>{faq.question}</h3>
           <p>{faq.answer}</p>
         </div>

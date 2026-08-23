@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { PHONE_DISPLAY, PHONE_E164, CONTACT_EMAIL, SERVICE_AREAS, WHATSAPP_URL } from '../config';
+import FieldMeasurement from '../components/illustrations/FieldMeasurement.astro';
+
+const title = 'Despre noi';
+const description =
+  'De ce facem detecție geoelectrică a apei subterane: măsurători reale în locul ghicitului, pentru un foraj informat.';
+---
+
+<BaseLayout title={title} description={description} path="/despre-noi/">
+  <section class="page-header container">
+    <h1>Despre noi</h1>
+    <p>
+      Măsurători reale în locul ghicitului — asta oferim celor care vor să sape un foraj informat,
+      nu la noroc.
+    </p>
+  </section>
+
+  <section class="container">
+    <FieldMeasurement />
+  </section>
+
+  <section class="container prose">
+    <h2>De ce facem asta</h2>
+    <p>
+      Am văzut prea des cum se alege locul unui foraj: după sfatul unui vecin, cu o nuia de alun
+      sau pur și simplu la noroc. Un foraj eșuat nu înseamnă doar bani pierduți — înseamnă timp,
+      efort și, uneori, renunțarea la o sursă de apă care exista la doar câțiva metri distanță.
+    </p>
+    <p>
+      Folosim o metodă geoelectrică, bazată pe măsurarea rezistivității electrice a solului —
+      date concrete, adunate la fața locului, nu presupuneri. Nu promitem ce metoda nu poate
+      garanta, dar oferim ceva ce ghicitul nu poate: o recomandare bazată pe măsurători reale,
+      explicată clar, fără termeni tehnici inutili.
+    </p>
+
+    <h2>Cum lucrăm</h2>
+    <p>
+      Fiecare evaluare presupune măsurători la fața locului, o interpretare onestă a datelor —
+      inclusiv atunci când rezultatul nu e cel sperat — și un raport clar, cu recomandarea și
+      gradul de încredere al acesteia. Poți citi pas cu pas metoda pe pagina
+      <a href="/cum-functioneaza/">cum funcționează</a>.
+    </p>
+
+    <h2>Zone în care lucrăm</h2>
+    <p>{SERVICE_AREAS.join(', ')}. Pentru alte zone, ne poți contacta — verificăm disponibilitatea.</p>
+  </section>
+
+  <section class="container">
+    <div class="card about-contact-card">
+      <h3>Contact direct</h3>
+      <p><a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a></p>
+      <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/contact/">Solicită o ofertă</a>
+      <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+        Scrie-ne pe WhatsApp
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about-contact-card {
+    max-width: 24rem;
+  }
+
+  .about-contact-card p {
+    margin: 0.3rem 0;
+  }
+</style>

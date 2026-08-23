@@ -20,4 +20,10 @@ const description = 'Am primit cererea ta. Te contactăm în cel mai scurt timp.
       <a class="btn btn-outline" href="/">Înapoi la Acasă</a>
     </div>
   </section>
+
+  <script>
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'trimite_formular', { page_path: window.location.pathname });
+    }
+  </script>
 </BaseLayout>

@@ -1,0 +1,10 @@
+# Recenzii reale de la clienți. Secțiunea "Ce spun clienții" de pe site apare
+# automat doar dacă această listă are cel puțin un element — nu adăuga
+# recenzii fictive aici, doar text real primit de la clienți (mesaj WhatsApp,
+# recenzie Google, etc.), cu numele/inițiala și localitatea/județul lor.
+#
+# Format:
+# - name: "Ion P."
+#   location: "Cluj-Napoca"
+#   rating: 5
+#   text: "Textul recenziei, exact așa cum a fost primit de la client."

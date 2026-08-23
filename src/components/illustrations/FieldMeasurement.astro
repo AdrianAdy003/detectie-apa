@@ -1,0 +1,77 @@
+---
+// Ilustrație originală: tehnician efectuând o măsurătoare geoelectrică pe teren.
+// Pictogramă stilizată, fără nicio persoană sau echipament real reprezentat.
+---
+
+<svg
+  class="field-measurement"
+  viewBox="0 0 640 380"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="field-measurement-title"
+>
+  <title id="field-measurement-title">
+    Tehnician efectuând o măsurătoare geoelectrică pe teren, cu aparatul conectat la doi electrozi
+  </title>
+
+  <!-- cer -->
+  <rect x="0" y="0" width="640" height="230" fill="#eaf6f3" />
+
+  <!-- sol -->
+  <rect x="0" y="230" width="640" height="150" fill="#cdb26b" />
+  <rect x="0" y="300" width="640" height="80" fill="#8a6d4b" />
+  <line x1="0" y1="230" x2="640" y2="230" stroke="#8a6d4b" stroke-width="3" />
+
+  <!-- zonă cu apă, sugerată sub suprafață -->
+  <ellipse cx="320" cy="340" rx="170" ry="38" fill="#0f7a8c" opacity="0.45" />
+
+  <!-- electrozi (tije infipte in sol) -->
+  {[150, 490].map((x) => (
+    <g>
+      <line x1={x} y1="182" x2={x} y2="228" stroke="#0b4f5c" stroke-width="4" />
+      <path d={`M${x - 6} 226 L${x} 238 L${x + 6} 226 Z`} fill="#0b4f5c" />
+    </g>
+  ))}
+
+  <!-- fire de la aparat catre electrozi -->
+  <path d="M150 182 C 230 150 300 165 386 178" fill="none" stroke="#1fae7a" stroke-width="3" stroke-dasharray="7 6" />
+  <path d="M490 182 C 440 150 415 165 388 178" fill="none" stroke="#1fae7a" stroke-width="3" stroke-dasharray="7 6" />
+
+  <!-- tehnician: pictograma stilizata, fara trasaturi individuale -->
+  <g>
+    <!-- picioare -->
+    <rect x="286" y="198" width="14" height="34" rx="4" fill="#0b4f5c" />
+    <rect x="310" y="198" width="14" height="34" rx="4" fill="#0b4f5c" />
+    <!-- corp / vesta -->
+    <path d="M270 113 h60 l8 90 h-76 Z" fill="#1fae7a" />
+    <!-- brat intins, care tine aparatul -->
+    <path d="M328 128 Q 362 128 372 166" fill="none" stroke="#0b4f5c" stroke-width="14" stroke-linecap="round" />
+    <!-- cap -->
+    <circle cx="300" cy="95" r="18" fill="#0b4f5c" />
+    <!-- casca de protectie -->
+    <path d="M282 91 a18 18 0 0 1 36 0 z" fill="#ffffff" />
+  </g>
+
+  <!-- aparatul de masura, in mana -->
+  <rect x="366" y="150" width="42" height="30" rx="4" fill="#0b4f5c" />
+  <rect x="371" y="156" width="32" height="12" rx="2" fill="#eaf6f3" />
+
+  <!-- etichete -->
+  <g font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#0b4f5c">
+    <text x="150" y="170" text-anchor="middle">Electrod</text>
+    <text x="490" y="170" text-anchor="middle">Electrod</text>
+  </g>
+
+  <g font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#eaf6f3">
+    <text x="320" y="345" text-anchor="middle">Zonă cu apă</text>
+  </g>
+</svg>
+
+<style>
+  .field-measurement {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    display: block;
+  }
+</style>

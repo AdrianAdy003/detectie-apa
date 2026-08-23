@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localBusinessJsonLd } from '../lib/jsonld';
-import { WHATSAPP_URL, SERVICE_AREAS, MAX_DEPTH_METERS } from '../config';
+import { WHATSAPP_URL, SERVICE_AREAS, MAX_DEPTH_METERS, SERVICE_PRICE_LEI } from '../config';
 import GroundLayers from '../components/illustrations/GroundLayers.astro';
+import Testimonials from '../components/Testimonials.astro';
 import { getCollection } from 'astro:content';
 
 const title = 'Detecție apă subterană fără foraj';
@@ -30,6 +31,12 @@ const recentPosts = (await getCollection('blog', ({ data }) => !data.draft))
             Scrie-ne pe WhatsApp
           </a>
         </div>
+        <ul class="hero-trust-bar">
+          <li>Fără foraj de probă</li>
+          <li>{SERVICE_PRICE_LEI} lei / evaluare</li>
+          <li>Până la {MAX_DEPTH_METERS} m adâncime</li>
+          <li>{SERVICE_AREAS.join(', ')}</li>
+        </ul>
       </div>
       <GroundLayers />
     </div>
@@ -97,6 +104,8 @@ const recentPosts = (await getCollection('blog', ({ data }) => !data.draft))
       să iei o decizie informată, pe baza unor măsurători, nu a presupunerilor.
     </p>
   </section>
+
+  <Testimonials />
 
   <section class="container">
     <h2>Zone deservite</h2>
