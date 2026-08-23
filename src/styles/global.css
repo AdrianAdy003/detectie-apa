@@ -35,7 +35,7 @@ body {
   padding-bottom: 3.6rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1180px) {
   body {
     padding-bottom: 0;
   }
