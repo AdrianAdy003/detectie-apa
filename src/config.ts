@@ -8,15 +8,15 @@ export const SITE_NAME = 'Detecție Apă';
 // (SRL) și fără CUI/Reg. Com. inventate. Actualizează aici odată ce firma e înregistrată.
 export const COMPANY_NAME = 'Detecție Apă';
 
-export const PHONE_DISPLAY = '0740 912 166';
-export const PHONE_E164 = '+40740912166';
+export const PHONE_DISPLAY = '0774 347 851';
+export const PHONE_E164 = '+40774347851';
 export const CONTACT_EMAIL = 'contact@detectieapa.ro';
 
 // Numărul pentru WhatsApp, în format internațional fără "+" (cerut de wa.me).
-export const WHATSAPP_NUMBER = '40740912166';
+export const WHATSAPP_NUMBER = '40774347851';
 // Link exact cerut, cu mesaj predefinit.
 export const WHATSAPP_URL =
-  'https://wa.me/40740912166?text=Bun%C4%83,%20vreau%20o%20detec%C8%9Bie';
+  'https://wa.me/40774347851?text=Bun%C4%83,%20vreau%20o%20detec%C8%9Bie';
 
 // Zone deservite — se pot extinde ulterior.
 export const SERVICE_AREAS = ['Cluj', 'Alba', 'Mureș', 'Sibiu', 'Bistrița-Năsăud'];
