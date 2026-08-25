@@ -5,15 +5,15 @@ import FieldMeasurement from '../components/illustrations/FieldMeasurement.astro
 
 const title = 'Despre noi';
 const description =
-  'De ce facem detecție geoelectrică a apei subterane: măsurători reale în locul ghicitului, pentru un foraj informat.';
+  'Scanări non-invazive pentru ce nu se vede cu ochiul liber: detecție a apei subterane și termografie pentru clădiri.';
 ---
 
 <BaseLayout title={title} description={description} path="/despre-noi/">
   <section class="page-header container">
     <h1>Despre noi</h1>
     <p>
-      Măsurători reale în locul ghicitului — asta oferim celor care vor să sape un foraj informat,
-      nu la noroc.
+      Tehnologie de scanare non-invazivă pentru ce nu se vede cu ochiul liber — sub pământ sau în
+      spatele pereților.
     </p>
   </section>
 
@@ -22,25 +22,45 @@ const description =
   </section>
 
   <section class="container prose">
-    <h2>De ce facem asta</h2>
+    <h2>Cine suntem</h2>
     <p>
-      Am văzut prea des cum se alege locul unui foraj: după sfatul unui vecin, cu o nuia de alun
-      sau pur și simplu la noroc. Un foraj eșuat nu înseamnă doar bani pierduți — înseamnă timp,
-      efort și, uneori, renunțarea la o sursă de apă care exista la doar câțiva metri distanță.
-    </p>
-    <p>
-      Folosim o metodă geoelectrică, bazată pe măsurarea rezistivității electrice a solului —
-      date concrete, adunate la fața locului, nu presupuneri. Nu promitem ce metoda nu poate
-      garanta, dar oferim ceva ce ghicitul nu poate: o recomandare bazată pe măsurători reale,
-      explicată clar, fără termeni tehnici inutili.
+      Suntem o echipă specializată în scanări non-invazive: detecție geoelectrică a apei subterane
+      și termografie pentru clădiri. Folosim echipamente de măsurare, nu presupuneri, ca să
+      răspundem la întrebări pe care altfel le-ai afla abia după ce ai săpat sau ai spart un
+      perete.
     </p>
 
-    <h2>Cum lucrăm</h2>
+    <h2>De ce facem asta</h2>
     <p>
-      Fiecare evaluare presupune măsurători la fața locului, o interpretare onestă a datelor —
-      inclusiv atunci când rezultatul nu e cel sperat — și un raport clar, cu recomandarea și
-      gradul de încredere al acesteia. Poți citi pas cu pas metoda pe pagina
+      Am văzut prea des decizii luate la noroc: locul unui foraj ales după sfatul unui vecin sau
+      cu o nuia de alun, o infiltrație descoperită abia când a făcut pagubă, o izolație ineficientă
+      depistată abia la facturile de energie. În toate aceste cazuri, o măsurătoare făcută din
+      timp ar fi economisit bani, timp și nervi.
+    </p>
+    <p>
+      Nu promitem ce metodele noastre nu pot garanta, dar oferim ceva ce ghicitul nu poate: date
+      reale, culese la fața locului, explicate clar, fără termeni tehnici inutili.
+    </p>
+
+    <h2>Ce oferim</h2>
+    <ul>
+      <li>Detecție geoelectrică a apei subterane, fără foraj de probă</li>
+      <li>Termografie pentru infiltrații și pierderi de apă în pereți sau țevi</li>
+      <li>Termografie pentru pierderi de căldură și izolație deficientă</li>
+      <li>Localizare trasee de țevi și instalații de încălzire în pardoseală, fără spargere</li>
+      <li>Raport clar, cu recomandările și observațiile din teren</li>
+    </ul>
+    <p>
+      Poți citi pas cu pas metoda folosită pentru apă subterană pe pagina
       <a href="/cum-functioneaza/">cum funcționează</a>.
+    </p>
+
+    <h2>Valorile noastre</h2>
+    <p>
+      Credem că o evaluare tehnică trebuie să fie clară, nu împânzită de termeni de specialitate.
+      De aceea explicăm ce arată măsurătorile și cât de sigură e o recomandare, inclusiv atunci
+      când rezultatul nu e cel sperat. Verificăm constant ca informațiile pe care le oferim să
+      corespundă realității din teren, nu unor presupuneri.
     </p>
 
     <h2>Zone în care lucrăm</h2>
@@ -49,7 +69,7 @@ const description =
 
   <section class="container">
     <div class="card about-contact-card">
-      <h3>Contact direct</h3>
+      <h3>Contact</h3>
       <p><a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a></p>
       <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
     </div>
