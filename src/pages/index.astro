@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { localBusinessJsonLd } from '../lib/jsonld';
 import { WHATSAPP_URL, SERVICE_AREAS, MAX_DEPTH_METERS, SERVICE_PRICE_LEI } from '../config';
-import GroundLayers from '../components/illustrations/GroundLayers.astro';
 import Testimonials from '../components/Testimonials.astro';
 import { getCollection } from 'astro:content';
 
@@ -38,7 +37,13 @@ const recentPosts = (await getCollection('blog', ({ data }) => !data.draft))
           <li>{SERVICE_AREAS.join(', ')}</li>
         </ul>
       </div>
-      <GroundLayers />
+      <img
+        class="hero-illustration"
+        src="/hero-illustration.svg"
+        width="1792"
+        height="1024"
+        alt="Tehnician măsurând rezistivitatea electrică a solului pe un deal, cu secțiune transversală a stratului acvifer"
+      />
     </div>
   </section>
 
