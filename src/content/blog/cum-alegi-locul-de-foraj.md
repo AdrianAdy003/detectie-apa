@@ -36,7 +36,7 @@ doar în momentul forării.
 O evaluare prealabilă reduce riscul unui foraj fără rezultat și oferă un punct de plecare
 informat pentru discuția cu echipa de foraj.
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
 [contactează-ne](/contact/) direct pentru o programare.

@@ -39,7 +39,7 @@ Multe gospodării au nevoie de ambele — apă potabilă pentru consum și un de
 grădină sau curte. În aceste cazuri, discutăm scopul principal încă de la programare, ca evaluarea
 să fie orientată corect.
 
-## Programează o evaluare
+## Programează o detecție
 
 Indiferent de scop, [evaluarea geoelectrică](/cum-functioneaza/) urmează același principiu de
 bază — măsurători non-invazive, fără foraj de probă. Vezi

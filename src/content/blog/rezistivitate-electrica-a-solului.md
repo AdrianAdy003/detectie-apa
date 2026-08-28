@@ -53,7 +53,7 @@ Rezistivitatea electrică este, în esență, "amprenta" pe care apa o lasă în
 electric al solului. Măsurând-o corect, putem oferi o recomandare informată pentru punctul de
 foraj — fără presupuneri și fără intervenție asupra terenului.
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
 [contactează-ne](/contact/) direct pentru o programare.

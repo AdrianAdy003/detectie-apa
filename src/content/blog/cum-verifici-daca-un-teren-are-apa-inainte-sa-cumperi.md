@@ -38,7 +38,7 @@ Dacă evaluarea arată un potențial bun, achiziția devine mai sigură din aces
 arată un potențial slab sau incert, ai un argument concret fie pentru a renegocia prețul, fie
 pentru a căuta alt teren — decizie luată pe bază de date, nu de presupuneri.
 
-## Programează o evaluare
+## Programează o detecție
 
 Dacă ești în proces de a cumpăra un teren și vrei o evaluare înainte de a semna, vezi
 [serviciul nostru de detecție a apei subterane](/servicii/) sau [contactează-ne](/contact/) —

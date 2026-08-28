@@ -43,7 +43,7 @@ non-invazive, fără foraj de probă, cu un raport clar la final. Bistrița-Năs
 Costul standard al unei evaluări, valabil și pentru Bistrița-Năsăud, e detaliat pe pagina de
 [Termeni și condiții](/termeni-si-conditii/).
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
 [contactează-ne](/contact/) direct pentru o programare.

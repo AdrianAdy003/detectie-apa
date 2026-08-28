@@ -49,7 +49,7 @@ Nu există un răspuns universal "care e mai bună" — depinde de adâncimea es
 tău și de bugetul disponibil. O evaluare prealabilă îți oferă informația de care ai nevoie ca să
 alegi în cunoștință de cauză.
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
 [contactează-ne](/contact/) pentru o evaluare a terenului tău.

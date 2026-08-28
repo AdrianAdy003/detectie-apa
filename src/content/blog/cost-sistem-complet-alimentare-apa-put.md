@@ -52,7 +52,7 @@ Multe estimări inițiale iau în calcul doar costul forajului, apoi componentel
 hidrofor, instalație, analiză) apar ca surprize ulterioare. O planificare completă, din start,
 evită acest scenariu.
 
-## Programează o evaluare
+## Programează o detecție
 
 Rolul nostru este prima etapă — identificarea sursei de apă, înainte ca restul costurilor să fie
 angajate. Vezi [serviciul nostru de detecție a apei subterane](/servicii/) sau

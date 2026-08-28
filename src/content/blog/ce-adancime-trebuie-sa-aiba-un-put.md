@@ -47,7 +47,7 @@ Nu te baza pe adâncimea fântânii vecinului ca reper pentru terenul tău — v
 mari chiar și pe distanțe mici. O evaluare a terenului tău specific rămâne cea mai sigură cale de
 a afla la ce să te aștepți.
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
 [contactează-ne](/contact/) pentru o evaluare.

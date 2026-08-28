@@ -36,7 +36,7 @@ Refacerea depinde de cantitatea și distribuția precipitațiilor ulterioare, de
 adâncimea stratului. Straturile de suprafață se pot reface relativ rapid, în câteva luni cu
 precipitații normale, în timp ce straturile mai adânci se refac pe perioade mai lungi.
 
-## Programează o evaluare
+## Programează o detecție
 
 Lucrăm indiferent de anotimp sau de condițiile meteo recente — măsurătorile geoelectrice rămân
 relevante și în perioade de secetă. Vezi [serviciul nostru de detecție a apei subterane](/servicii/)

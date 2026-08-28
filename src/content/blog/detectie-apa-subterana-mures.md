@@ -48,7 +48,7 @@ adâncimea estimată. Mureș face parte din [zonele deservite curent](/zone-acop
 Costul standard e valabil și pentru Mureș, detaliat pe pagina de
 [Termeni și condiții](/termeni-si-conditii/).
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/) sau
 [contactează-ne](/contact/) pentru a programa o evaluare sau pentru a discuta o situație

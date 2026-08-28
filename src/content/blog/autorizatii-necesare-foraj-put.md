@@ -42,7 +42,7 @@ O [evaluare geoelectrică](/cum-functioneaza/) nu înlocuiește niciun aviz sau 
 pas anterior, care te ajută să alegi un punct cu șanse reale de a conține apă, înainte de a
 parcurge, dacă e cazul, pașii administrativi necesari.
 
-## Programează o evaluare
+## Programează o detecție
 
 Pentru clarificări administrative, contactează direct Apele Române sau primăria locală. Pentru
 identificarea unui punct cu potențial pe terenul tău, vezi

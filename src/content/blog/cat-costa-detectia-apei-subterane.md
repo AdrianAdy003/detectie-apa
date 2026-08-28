@@ -44,7 +44,7 @@ incertitudinea prin măsurători reale, nu prin presupuneri.
 Dacă iei în calcul un foraj, o evaluare prealabilă e un cost mic în raport cu riscul unui foraj
 fără rezultat.
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciul nostru de detecție a apei subterane](/servicii/), zonele în care
 lucrăm pe pagina de [zone acoperite](/zone-acoperite/), sau [contactează-ne](/contact/) direct

@@ -43,7 +43,7 @@ puncte posibile, criteriile practice de mai sus ajută la alegerea finală — d
 discutăm împreună cu tine atât rezultatele măsurătorilor, cât și aceste aspecte practice ale
 terenului.
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi [serviciul nostru de detecție a apei subterane](/servicii/) sau [contactează-ne](/contact/)
 pentru o evaluare care ține cont de tot terenul, nu doar de un singur punct izolat.

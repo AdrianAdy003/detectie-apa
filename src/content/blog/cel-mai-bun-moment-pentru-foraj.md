@@ -39,7 +39,7 @@ similare verii, dar cu un ochi la vremea care se poate schimba rapid spre final 
 din timp, indiferent de sezon, îți oferă informația necesară ca să planifici forajul propriu-zis
 în cel mai potrivit moment pentru bugetul și programul tău — nu invers.
 
-## Programează o evaluare
+## Programează o detecție
 
 Lucrăm pe tot parcursul anului, adaptând programarea la condițiile din teren. Vezi
 [serviciul nostru de detecție a apei subterane](/servicii/) sau [contactează-ne](/contact/)

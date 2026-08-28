@@ -53,7 +53,7 @@ Cele două metode nu se exclud — evaluarea geoelectrică este, în esență, u
 incertitudinea înainte de foraj, nu un înlocuitor al acestuia. Dacă vrei să afli mai multe despre
 cost, avem un articol dedicat: [cât costă detecția apei subterane](/blog/cat-costa-detectia-apei-subterane/).
 
-## Programează o evaluare
+## Programează o detecție
 
 Vezi detalii despre [serviciile noastre](/servicii/) sau [contactează-ne](/contact/) direct
 pentru o programare.
