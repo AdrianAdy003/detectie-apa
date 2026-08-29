@@ -25,7 +25,14 @@ const jsonLd = blogPostingJsonLd({
 });
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description} path={path} jsonLd={jsonLd} ogType="article">
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  path={path}
+  jsonLd={jsonLd}
+  ogType="article"
+  image={post.data.image}
+>
   <article class="container prose">
     <header class="page-header">
       <h1>{post.data.title}</h1>
@@ -34,6 +41,16 @@ const jsonLd = blogPostingJsonLd({
         {' · '}{post.data.author}
       </p>
     </header>
+    {post.data.image && (
+      <img
+        class="post-cover"
+        src={post.data.image}
+        alt={post.data.imageAlt ?? ''}
+        width="1792"
+        height="1024"
+        loading="eager"
+      />
+    )}
     <Content />
   </article>
 </BaseLayout>

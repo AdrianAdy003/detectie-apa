@@ -3,6 +3,8 @@ title: "Ce este rezistivitatea electrică a solului"
 description: "Explicăm, pe înțelesul tuturor, ce este rezistivitatea electrică a solului și cum această proprietate fizică ajută la localizarea apei subterane."
 pubDate: 2026-05-22
 author: "Echipa Detecție Apă"
+image: "/blog/rezistivitate-electrica-a-solului.svg"
+imageAlt: "Schemă a curentului electric prin straturi de sol cu rezistivitate diferită, evidențiind zona cu apă"
 ---
 
 Metoda pe care o folosim se bazează pe un concept din fizică numit rezistivitate electrică.

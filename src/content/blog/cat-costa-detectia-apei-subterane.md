@@ -3,6 +3,8 @@ title: "Cât costă detecția apei subterane"
 description: "Cât costă o evaluare geoelectrică a terenului, ce factori influențează prețul unui foraj și de ce o evaluare prealabilă reduce riscul unor cheltuieli inutile."
 pubDate: 2026-03-10
 author: "Echipa Detecție Apă"
+image: "/blog/cat-costa-detectia-apei-subterane.svg"
+imageAlt: "Comparație vizuală între un foraj la întâmplare cu bani pierduți și o detecție geoelectrică precisă a apei subterane"
 ---
 
 Una dintre primele întrebări pe care le primim este, firesc, legată de cost. Mai jos explicăm

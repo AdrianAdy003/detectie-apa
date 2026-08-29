@@ -14,13 +14,14 @@ interface Props {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
   ogType?: 'website' | 'article';
   noindex?: boolean;
+  image?: string;
 }
 
-const { title, description, path, jsonLd, ogType = 'website', noindex = false } = Astro.props;
+const { title, description, path, jsonLd, ogType = 'website', noindex = false, image } = Astro.props;
 
 const canonicalURL = new URL(path, SITE_URL).toString();
 const fullTitle = `${title} | ${SITE_NAME}`;
-const ogImageURL = new URL('/og-image.png', SITE_URL).toString();
+const ogImageURL = new URL(image ?? '/og-image.png', SITE_URL).toString();
 ---
 
 <!doctype html>

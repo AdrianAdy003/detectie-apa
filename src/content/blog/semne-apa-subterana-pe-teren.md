@@ -3,6 +3,8 @@ title: "5 semne care indică apă subterană pe un teren"
 description: "Ce indicii naturale (vegetație, relief, umiditate) pot sugera prezența apei subterane și de ce merită confirmate printr-o evaluare geoelectrică."
 pubDate: 2026-04-14
 author: "Echipa Detecție Apă"
+image: "/blog/semne-apa-subterana-pe-teren.svg"
+imageAlt: "Semne naturale de apă subterană la suprafață, aliniate cu stratul acvifer din secțiunea de sol"
 ---
 
 Înainte de a apela la o evaluare geoelectrică, mulți proprietari de teren observă deja unele

@@ -3,6 +3,8 @@ title: "Foraj de probă vs. detecție geoelectrică"
 description: "Comparăm forajul de probă și evaluarea geoelectrică non-invazivă — costuri, riscuri și situațiile în care fiecare metodă are sens."
 pubDate: 2026-06-18
 author: "Echipa Detecție Apă"
+image: "/blog/foraj-de-proba-vs-detectie-geoelectrica.svg"
+imageAlt: "Comparație între foraj de probă cu găuri eșuate și detecție geoelectrică cu un singur punct precis"
 ---
 
 Când vine vorba de găsirea apei subterane, există în principal două abordări: forajul de probă

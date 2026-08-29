@@ -20,6 +20,18 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
     {
       posts.map((post) => (
         <article class="card post-card">
+          {post.data.image && (
+            <a href={`/blog/${post.id}/`}>
+              <img
+                class="post-card-cover"
+                src={post.data.image}
+                alt=""
+                width="1792"
+                height="1024"
+                loading="lazy"
+              />
+            </a>
+          )}
           <h2>
             <a href={`/blog/${post.id}/`}>{post.data.title}</a>
           </h2>
