@@ -3,6 +3,8 @@ title: "Ce distanță trebuie să fie între puț și fosa septică"
 description: "Cât de departe trebuie amplasată o fosă septică față de puțul de apă potabilă, conform normelor de igienă din România, și de ce contează cu adevărat."
 pubDate: 2026-08-28
 author: "Echipa Detecție Apă"
+image: "/blog/distanta-put-fosa-septica.png"
+imageAlt: "Distanța de siguranță între un puț de apă potabilă și o fosă septică, ilustrată în secțiune"
 ---
 
 Dacă plănuiești atât un puț, cât și o fosă septică pe același teren, e important să știi din start cât spațiu trebuie să lași între ele. Nu e doar o formalitate birocratică — distanța asta te protejează, pe tine și familia ta, de o problemă mult mai neplăcută decât o amendă: apa contaminată.

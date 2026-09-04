@@ -3,6 +3,8 @@ title: "Ce este un hidrofor și cum alegi unul potrivit pentru puțul tău"
 description: "Cum funcționează un hidrofor, din ce componente e format și ce criterii contează la alegerea unuia potrivit pentru puțul tău."
 pubDate: 2026-08-29
 author: "Echipa Detecție Apă"
+image: "/blog/ce-este-hidroforul-cum-alegi.png"
+imageAlt: "Secțiune a unei case arătând pompa submersibilă, hidroforul și traseul apei până la robinet"
 ---
 
 Ai găsit apă, ai forat puțul — dar între apa aflată la câțiva metri sub pământ și jetul constant de la robinetul din bucătărie mai e o piesă esențială: hidroforul. Fără el, ai avea apă doar cât timp pompa ar funcționa continuu, ceea ce nu e nici practic, nici sănătos pentru echipament.

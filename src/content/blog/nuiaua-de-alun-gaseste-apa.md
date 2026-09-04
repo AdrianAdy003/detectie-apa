@@ -3,6 +3,8 @@ title: "Nuiaua de alun găsește cu adevărat apă, sau e mit?"
 description: "Explicăm ce este radiestezia cu nuiaua de alun, de ce pare uneori să funcționeze și ce spune de fapt știința despre găsirea apei subterane."
 pubDate: 2026-08-26
 author: "Echipa Detecție Apă"
+image: "/blog/nuiaua-de-alun-gaseste-apa.svg"
+imageAlt: "Comparație între radiestezia cu nuiaua de alun și detecția geoelectrică cu aparatură de măsură"
 ---
 
 Dacă ai întrebat pe cineva din sat unde să sapi o fântână, sigur ai auzit și tu de "omul cu nuiaua" — cel care umblă pe teren cu o crenguță în formă de Y și, acolo unde aceasta se răsucește brusc în mâini, spune "aici e apă". E o practică veche, transmisă din generație în generație, și mulți jură că funcționează. Hai să vedem, cu mintea deschisă, ce se întâmplă de fapt.

@@ -3,6 +3,8 @@ title: "De ce nu s-a găsit apă la foraj și ce poți face"
 description: "Cele mai frecvente motive pentru care un foraj rămâne fără apă și pașii concreți pe care îi ai la dispoziție dacă ți s-a întâmplat asta."
 pubDate: 2026-08-27
 author: "Echipa Detecție Apă"
+image: "/blog/de-ce-nu-s-a-gasit-apa-la-foraj.png"
+imageAlt: "Foraj eșuat fără apă, comparat cu o evaluare geoelectrică ce localizează vena de apă"
 ---
 
 Dacă ai plătit deja un foraj și te-ai trezit cu o gaură uscată în pământ, știm cât de frustrant e — și, din păcate, e o situație mult mai des întâlnită decât ai crede. Vestea bună e că aproape întotdeauna există o explicație clară, și aproape la fel de des există și o soluție. Hai să le luăm pe rând.
