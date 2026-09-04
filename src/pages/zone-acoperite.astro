@@ -12,6 +12,29 @@ const zoneArticleSlugs: Record<string, string> = {
   Sibiu: 'detectie-apa-subterana-sibiu',
   'Bistrița-Năsăud': 'detectie-apa-subterana-bistrita-nasaud',
 };
+
+const zoneCities: Record<string, { name: string; slug: string }[]> = {
+  Cluj: [
+    { name: 'Turda', slug: 'detectie-apa-subterana-turda' },
+    { name: 'Dej', slug: 'detectie-apa-subterana-dej' },
+  ],
+  Alba: [
+    { name: 'Alba Iulia', slug: 'detectie-apa-subterana-alba-iulia' },
+    { name: 'Sebeș', slug: 'detectie-apa-subterana-sebes' },
+  ],
+  Mureș: [
+    { name: 'Târgu Mureș', slug: 'detectie-apa-subterana-targu-mures' },
+    { name: 'Reghin', slug: 'detectie-apa-subterana-reghin' },
+  ],
+  Sibiu: [
+    { name: 'Mediaș', slug: 'detectie-apa-subterana-medias' },
+    { name: 'Avrig', slug: 'detectie-apa-subterana-avrig' },
+  ],
+  'Bistrița-Năsăud': [
+    { name: 'Bistrița', slug: 'detectie-apa-subterana-bistrita' },
+    { name: 'Năsăud', slug: 'detectie-apa-subterana-nasaud' },
+  ],
+};
 ---
 
 <BaseLayout title={title} description={description} path="/zone-acoperite/">
@@ -27,6 +50,7 @@ const zoneArticleSlugs: Record<string, string> = {
     <ul class="card-grid">
       {SERVICE_AREAS.map((zone) => {
         const slug = zoneArticleSlugs[zone];
+        const cities = zoneCities[zone] ?? [];
         return (
           <li class="card">
             {zone}
@@ -36,6 +60,15 @@ const zoneArticleSlugs: Record<string, string> = {
                 <a href={`/blog/${slug}/`}>citește articolul dedicat</a>
               </>
             )}
+            {cities.length > 0 && (
+              <ul class="zone-cities">
+                {cities.map((city) => (
+                  <li>
+                    <a href={`/blog/${city.slug}/`}>{city.name}</a>
+                  </li>
+                ))}
+              </ul>
+            )}
           </li>
         );
       })}
@@ -44,8 +77,21 @@ const zoneArticleSlugs: Record<string, string> = {
 
   <section class="container prose">
     <p>Nu găsești localitatea ta pe listă?</p>
+
     <a class="btn btn-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
       Întreabă-ne pe WhatsApp
     </a>
   </section>
 </BaseLayout>
+
+<style>
+  .zone-cities {
+    list-style: none;
+    margin: 0.6rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+  }
+</style>
