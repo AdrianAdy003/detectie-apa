@@ -1,5 +1,5 @@
 ---
-title: "Ce autorizații sunt necesare pentru un foraj de puț"
+title: "Autorizații necesare pentru un foraj de puț"
 description: "Orientare generală despre avizele și autorizațiile care pot fi necesare înainte de a fora un puț în România, și unde te informezi exact pentru terenul tău."
 pubDate: 2026-08-18
 author: "Echipa Detecție Apă"

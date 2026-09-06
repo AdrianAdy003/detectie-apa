@@ -1,5 +1,5 @@
 ---
-title: "Cost total al unui sistem de alimentare cu apă de la puț"
+title: "Cost total al unui sistem de apă de la puț"
 description: "Din ce componente e format costul total al unui sistem funcțional de apă de la puț, dincolo de evaluare și foraj: pompă, hidrofor, instalație."
 pubDate: 2026-08-20
 author: "Echipa Detecție Apă"

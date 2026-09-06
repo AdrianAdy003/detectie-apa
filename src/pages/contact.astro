@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { localBusinessJsonLd } from '../lib/jsonld';
+import { localBusinessJsonLd, breadcrumbListJsonLd } from '../lib/jsonld';
 import {
   PHONE_DISPLAY,
   PHONE_E164,
@@ -13,9 +13,17 @@ import {
 
 const title = 'Contact';
 const description = 'Contactează-ne pentru o evaluare de detecție a apei subterane: telefon, e-mail sau WhatsApp.';
+
+const jsonLd = [
+  localBusinessJsonLd(),
+  breadcrumbListJsonLd([
+    { name: 'Acasă', path: '/' },
+    { name: 'Contact', path: '/contact/' },
+  ]),
+];
 ---
 
-<BaseLayout title={title} description={description} path="/contact/" jsonLd={localBusinessJsonLd()}>
+<BaseLayout title={title} description={description} path="/contact/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Contact</h1>
     <p>

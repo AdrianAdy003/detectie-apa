@@ -1,5 +1,5 @@
 ---
-title: "Cât timp durează să se umple un puț forat cu apă"
+title: "Cât timp durează să se umple un puț"
 description: "De ce apa dintr-un puț nou forat nu e clară imediat, cât durează procesul de denisipare și ce factori influențează acest timp."
 pubDate: 2026-08-31
 author: "Echipa Detecție Apă"

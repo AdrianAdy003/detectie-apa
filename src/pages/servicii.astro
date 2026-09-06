@@ -1,13 +1,22 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { WHATSAPP_URL, SERVICE_PRICE_LEI, MAX_DEPTH_METERS } from '../config';
+import { serviceJsonLd, breadcrumbListJsonLd } from '../lib/jsonld';
 
 const title = 'Servicii de detecție a apei subterane';
 const description =
   'Servicii de detecție geoelectrică a apei subterane pentru fântâni, puțuri și terenuri rezidențiale sau agricole.';
+
+const jsonLd = [
+  serviceJsonLd(),
+  breadcrumbListJsonLd([
+    { name: 'Acasă', path: '/' },
+    { name: 'Servicii', path: '/servicii/' },
+  ]),
+];
 ---
 
-<BaseLayout title={title} description={description} path="/servicii/">
+<BaseLayout title={title} description={description} path="/servicii/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Servicii</h1>
     <p>Evaluări geoelectrice non-invazive, adaptate tipului de teren și scopului forajului.</p>

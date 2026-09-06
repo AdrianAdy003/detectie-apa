@@ -46,6 +46,42 @@ export function faqPageJsonLd(faqs: { question: string; answer: string }[]) {
   };
 }
 
+export function serviceJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: 'Detecție geoelectrică a apei subterane',
+    provider: {
+      '@type': 'LocalBusiness',
+      name: COMPANY_NAME,
+      telephone: PHONE_E164,
+      email: CONTACT_EMAIL,
+    },
+    areaServed: SERVICE_AREAS.map((zone) => ({
+      '@type': 'City',
+      name: zone,
+    })),
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'RON',
+      price: SERVICE_PRICE_LEI,
+    },
+  };
+}
+
+export function breadcrumbListJsonLd(items: { name: string; path: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: new URL(item.path, SITE_URL).toString(),
+    })),
+  };
+}
+
 export function blogPostingJsonLd(opts: {
   title: string;
   description: string;

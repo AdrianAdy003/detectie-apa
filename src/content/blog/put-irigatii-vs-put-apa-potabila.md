@@ -1,5 +1,5 @@
 ---
-title: "Puț pentru irigații vs. puț pentru apă potabilă"
+title: "Puț pentru irigații vs. apă potabilă"
 description: "Cum diferă cerințele unei evaluări geoelectrice în funcție de scop: irigații agricole față de apă potabilă pentru gospodărie."
 pubDate: 2026-08-20
 author: "Echipa Detecție Apă"

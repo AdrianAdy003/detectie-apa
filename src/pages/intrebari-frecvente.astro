@@ -2,7 +2,7 @@
 import { parse } from 'yaml';
 import faqRaw from '../data/faq.yaml?raw';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { faqPageJsonLd } from '../lib/jsonld';
+import { faqPageJsonLd, breadcrumbListJsonLd } from '../lib/jsonld';
 import { WHATSAPP_URL } from '../config';
 
 interface Faq {
@@ -25,9 +25,17 @@ function slugify(text: string): string {
 
 const title = 'Întrebări frecvente';
 const description = 'Răspunsuri la cele mai frecvente întrebări despre detecția apei subterane.';
+
+const jsonLd = [
+  faqPageJsonLd(faqs),
+  breadcrumbListJsonLd([
+    { name: 'Acasă', path: '/' },
+    { name: 'Întrebări frecvente', path: '/intrebari-frecvente/' },
+  ]),
+];
 ---
 
-<BaseLayout title={title} description={description} path="/intrebari-frecvente/" jsonLd={faqPageJsonLd(faqs)}>
+<BaseLayout title={title} description={description} path="/intrebari-frecvente/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Întrebări frecvente</h1>
     <p>Nu găsești răspunsul pe care îl cauți?</p>

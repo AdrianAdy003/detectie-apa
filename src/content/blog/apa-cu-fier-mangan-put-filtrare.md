@@ -1,5 +1,5 @@
 ---
-title: "Apă cu fier sau mangan de la puț: cauze și soluții de filtrare"
+title: "Apă cu fier sau mangan de la puț"
 description: "De ce apa de la puț iese maronie sau lasă pete ruginii, ce rol au fierul și manganul dissolvate în apă, și ce soluții de filtrare chiar funcționează."
 pubDate: 2026-08-30
 author: "Echipa Detecție Apă"

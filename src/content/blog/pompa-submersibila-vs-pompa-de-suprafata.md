@@ -1,5 +1,5 @@
 ---
-title: "Pompă submersibilă vs. pompă de suprafață: care e potrivită pentru puțul tău"
+title: "Pompă submersibilă vs. pompă de suprafață"
 description: "Diferențele reale dintre pompa submersibilă și pompa de suprafață, și cum alegi varianta potrivită în funcție de adâncimea puțului tău."
 pubDate: 2026-09-01
 author: "Echipa Detecție Apă"

@@ -1,9 +1,9 @@
 ---
-title: "Ce este un hidrofor și cum alegi unul potrivit pentru puțul tău"
+title: "Ce este un hidrofor și cum îl alegi"
 description: "Cum funcționează un hidrofor, din ce componente e format și ce criterii contează la alegerea unuia potrivit pentru puțul tău."
 pubDate: 2026-08-29
 author: "Echipa Detecție Apă"
-image: "/blog/ce-este-hidroforul-cum-alegi.png"
+image: "/blog/ce-este-hidroforul-cum-alegi.webp"
 imageAlt: "Secțiune a unei case arătând pompa submersibilă, hidroforul și traseul apei până la robinet"
 ---
 

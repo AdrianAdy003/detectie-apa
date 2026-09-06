@@ -1,5 +1,5 @@
 ---
-title: "Cum verifici dacă un teren are apă înainte să cumperi"
+title: "Cum verifici dacă un teren are apă"
 description: "Ce poți face, înainte de a cumpăra un teren, ca să afli dacă are potențial real de apă subterană — și de ce merită făcut înainte de achiziție, nu după."
 pubDate: 2026-08-20
 author: "Echipa Detecție Apă"

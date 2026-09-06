@@ -1,9 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SERVICE_AREAS, WHATSAPP_URL } from '../config';
+import { breadcrumbListJsonLd } from '../lib/jsonld';
 
 const title = 'Zone acoperite';
 const description = 'Zonele în care oferim servicii de detecție a apei subterane.';
+
+const jsonLd = breadcrumbListJsonLd([
+  { name: 'Acasă', path: '/' },
+  { name: 'Zone acoperite', path: '/zone-acoperite/' },
+]);
 
 const zoneArticleSlugs: Record<string, string> = {
   Cluj: 'detectie-apa-subterana-cluj',
@@ -37,7 +43,7 @@ const zoneCities: Record<string, { name: string; slug: string }[]> = {
 };
 ---
 
-<BaseLayout title={title} description={description} path="/zone-acoperite/">
+<BaseLayout title={title} description={description} path="/zone-acoperite/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Zone acoperite</h1>
     <p>

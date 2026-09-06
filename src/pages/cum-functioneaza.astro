@@ -2,13 +2,19 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { MAX_DEPTH_METERS } from '../config';
 import GeoelectricDiagram from '../components/illustrations/GeoelectricDiagram.astro';
+import { breadcrumbListJsonLd } from '../lib/jsonld';
 
 const title = 'Cum funcționează detecția apei subterane';
 const description =
   'Explicăm pas cu pas metoda geoelectrică non-invazivă folosită pentru localizarea apei subterane, fără foraj de probă.';
+
+const jsonLd = breadcrumbListJsonLd([
+  { name: 'Acasă', path: '/' },
+  { name: 'Cum funcționează', path: '/cum-functioneaza/' },
+]);
 ---
 
-<BaseLayout title={title} description={description} path="/cum-functioneaza/">
+<BaseLayout title={title} description={description} path="/cum-functioneaza/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Cum funcționează</h1>
     <p>

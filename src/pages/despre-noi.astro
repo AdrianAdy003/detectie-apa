@@ -2,13 +2,19 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { PHONE_DISPLAY, PHONE_E164, CONTACT_EMAIL, SERVICE_AREAS, WHATSAPP_URL } from '../config';
 import FieldMeasurement from '../components/illustrations/FieldMeasurement.astro';
+import { breadcrumbListJsonLd } from '../lib/jsonld';
 
 const title = 'Despre noi';
 const description =
   'Scanări non-invazive pentru ce nu se vede cu ochiul liber: detecție a apei subterane și termografie pentru clădiri.';
+
+const jsonLd = breadcrumbListJsonLd([
+  { name: 'Acasă', path: '/' },
+  { name: 'Despre noi', path: '/despre-noi/' },
+]);
 ---
 
-<BaseLayout title={title} description={description} path="/despre-noi/">
+<BaseLayout title={title} description={description} path="/despre-noi/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Despre noi</h1>
     <p>

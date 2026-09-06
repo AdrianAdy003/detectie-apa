@@ -1,5 +1,5 @@
 ---
-title: "Cum influențează seceta nivelul apei subterane"
+title: "Seceta și nivelul apei subterane"
 description: "De ce nivelul apei subterane scade în perioadele secetoase, cât de rapid se poate reface și ce înseamnă asta pentru un foraj planificat."
 pubDate: 2026-08-20
 author: "Echipa Detecție Apă"

@@ -1,5 +1,5 @@
 ---
-title: "Nuiaua de alun găsește cu adevărat apă, sau e mit?"
+title: "Nuiaua de alun găsește apă, sau e mit?"
 description: "Explicăm ce este radiestezia cu nuiaua de alun, de ce pare uneori să funcționeze și ce spune de fapt știința despre găsirea apei subterane."
 pubDate: 2026-08-26
 author: "Echipa Detecție Apă"

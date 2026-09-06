@@ -1,5 +1,5 @@
 ---
-title: "Unde amplasezi puțul pe teren: reguli practice"
+title: "Unde amplasezi puțul pe teren"
 description: "Ce distanțe și considerente practice contează la alegerea locului unui puț pe teren, dincolo de simpla prezență a apei subterane."
 pubDate: 2026-08-20
 author: "Echipa Detecție Apă"
