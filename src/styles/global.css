@@ -285,6 +285,19 @@ a.card h3 {
   color: var(--color-text);
 }
 
+.page-photo {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.photo-caption {
+  margin-top: -0.25rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
 .contact-form {
   display: grid;
   gap: 1rem;
