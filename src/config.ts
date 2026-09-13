@@ -30,6 +30,9 @@ export const SERVICE_PRICE_LEI = 500;
 export const COMPANY_ADDRESS_LOCALITY = 'Cluj-Napoca';
 export const COMPANY_ADDRESS_COUNTRY = 'RO';
 
+// Link către Profilul Google Business (folosit și pentru a cere recenzii clienților).
+export const GOOGLE_BUSINESS_URL = 'https://g.page/r/Cf7mR1sR-H5LEBM/review';
+
 // Formular de contact — Web3Forms (gratuit, fără card). Obții cheia pe web3forms.com,
 // introducând emailul firmei — primești access key-ul instant. Înlocuiește placeholder-ul de mai jos.
 export const WEB3FORMS_ACCESS_KEY = 'ef72801e-385b-4484-b8e2-0320c67aaf13';

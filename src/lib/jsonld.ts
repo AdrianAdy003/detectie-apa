@@ -8,6 +8,7 @@ import {
   COMPANY_ADDRESS_LOCALITY,
   COMPANY_ADDRESS_COUNTRY,
   SERVICE_PRICE_LEI,
+  GOOGLE_BUSINESS_URL,
 } from '../config';
 
 export function localBusinessJsonLd() {
@@ -28,6 +29,7 @@ export function localBusinessJsonLd() {
       '@type': 'City',
       name: zone,
     })),
+    sameAs: [GOOGLE_BUSINESS_URL],
   };
 }
 
