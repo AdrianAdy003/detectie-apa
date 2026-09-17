@@ -10,6 +10,8 @@ import {
   SERVICE_AREAS,
   SERVICE_PRICE_LEI,
   MAX_DEPTH_METERS,
+  LEGAL_ENTITY_NAME,
+  COMPANY_CUI,
 } from '../config';
 
 const title = 'Termeni și condiții';
@@ -34,6 +36,10 @@ const lastUpdated = new Date().toLocaleDateString('ro-RO', {
       Acești termeni și condiții reglementează utilizarea site-ului {SITE_URL} și furnizarea
       serviciilor de detecție a apei subterane de către {COMPANY_NAME}. Prin solicitarea unei
       evaluări sau prin utilizarea site-ului, ești de acord cu prevederile de mai jos.
+    </p>
+    <p>
+      Serviciile prezentate pe acest site sunt operate de <strong>{LEGAL_ENTITY_NAME}</strong>,
+      CUI {COMPANY_CUI}, sub numele de marcă {COMPANY_NAME}.
     </p>
 
     <h2>2. Descrierea serviciului</h2>

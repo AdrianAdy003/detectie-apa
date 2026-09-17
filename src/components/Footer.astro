@@ -1,5 +1,14 @@
 ---
-import { SITE_NAME, COMPANY_NAME, PHONE_DISPLAY, PHONE_E164, CONTACT_EMAIL, SERVICE_AREAS } from '../config';
+import {
+  SITE_NAME,
+  COMPANY_NAME,
+  PHONE_DISPLAY,
+  PHONE_E164,
+  CONTACT_EMAIL,
+  SERVICE_AREAS,
+  LEGAL_ENTITY_NAME,
+  COMPANY_CUI,
+} from '../config';
 
 const year = new Date().getFullYear();
 ---
@@ -29,7 +38,7 @@ const year = new Date().getFullYear();
   </div>
 
   <p class="footer-note container">
-    © {year} {COMPANY_NAME}. Toate drepturile rezervate.
+    © {year} {COMPANY_NAME}. Toate drepturile rezervate. · {LEGAL_ENTITY_NAME}, CUI {COMPANY_CUI}
   </p>
 </footer>
 

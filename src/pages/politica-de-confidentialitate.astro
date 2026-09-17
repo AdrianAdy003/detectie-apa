@@ -1,6 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SITE_NAME, COMPANY_NAME, CONTACT_EMAIL, PHONE_DISPLAY, PHONE_E164 } from '../config';
+import {
+  SITE_NAME,
+  COMPANY_NAME,
+  CONTACT_EMAIL,
+  PHONE_DISPLAY,
+  PHONE_E164,
+  LEGAL_ENTITY_NAME,
+  COMPANY_CUI,
+} from '../config';
 
 const title = 'Politica de confidențialitate';
 const description = `Ce date personale colectează ${SITE_NAME}, în ce scop și ce drepturi ai conform GDPR.`;
@@ -24,6 +32,10 @@ const lastUpdated = new Date().toLocaleDateString('ro-RO', {
       Această politică explică ce date personale colectează {COMPANY_NAME} prin intermediul
       site-ului {SITE_NAME}, în ce scop le folosim, cui le transmitem și ce drepturi ai, conform
       Regulamentului General privind Protecția Datelor (GDPR — Regulamentul UE 2016/679).
+    </p>
+    <p>
+      Operatorul de date este <strong>{LEGAL_ENTITY_NAME}</strong>, CUI {COMPANY_CUI}, care
+      operează site-ul sub numele de marcă {COMPANY_NAME}.
     </p>
 
     <h2>2. Ce date colectăm</h2>

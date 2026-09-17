@@ -9,6 +9,8 @@ import {
   COMPANY_ADDRESS_COUNTRY,
   SERVICE_PRICE_LEI,
   GOOGLE_BUSINESS_URL,
+  LEGAL_ENTITY_NAME,
+  COMPANY_CUI,
 } from '../config';
 
 export function localBusinessJsonLd() {
@@ -16,6 +18,8 @@ export function localBusinessJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: COMPANY_NAME,
+    legalName: LEGAL_ENTITY_NAME,
+    taxID: COMPANY_CUI,
     url: SITE_URL,
     telephone: PHONE_E164,
     email: CONTACT_EMAIL,

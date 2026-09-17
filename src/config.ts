@@ -4,9 +4,13 @@
 export const SITE_URL = 'https://detectieapa.ro';
 
 export const SITE_NAME = 'Detecție Apă';
-// Firma e în curs de înființare — se folosește doar numele de brand, fără forma juridică
-// (SRL) și fără CUI/Reg. Com. inventate. Actualizează aici odată ce firma e înregistrată.
+// Numele de brand, folosit în conținutul orientat spre vizitator (nav, hero, articole).
 export const COMPANY_NAME = 'Detecție Apă';
+
+// Entitatea juridică care operează serviciul, sub numele de brand de mai sus.
+// Folosită doar acolo unde e cerută identificarea legală (Termeni, Confidențialitate, footer, schema).
+export const LEGAL_ENTITY_NAME = 'Scan Inspector SRL';
+export const COMPANY_CUI = '55580088';
 
 export const PHONE_DISPLAY = '0774 347 851';
 export const PHONE_E164 = '+40774347851';
