@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Cluj"
-description: "Ce presupune o evaluare geoelectrică pentru un teren din județul Cluj și zonele învecinate, înainte de a decide un foraj de fântână sau puț."
+description: "Ce presupune o evaluare geoelectrică pentru un teren din județul Cluj, cât costă un foraj put în Cluj și ce pași urmezi înainte de a decide un foraj de fântână sau puț."
 pubDate: 2026-07-08
 author: "Echipa Detecție Apă"
 ---
@@ -45,6 +45,15 @@ Detalii complete despre proces găsești pe pagina [Cum funcționează](/cum-fun
 Costul standard al unei evaluări este de 500 lei, detaliat pe pagina de
 [Termeni și condiții](/termeni-si-conditii/). Pentru localități din afara zonelor menționate mai
 sus, disponibilitatea se confirmă individual, la contactare.
+
+## Cât costă un foraj put în Cluj
+
+Prețul unui foraj put în Cluj depinde de adâncime, diametru și accesul pe teren — orientativ,
+140-180 lei/ml pentru tubaj de 160-200 mm, cu o adâncime minimă facturabilă de regulă în jur de
+18 metri. Detaliem factorii care influențează prețul final în articolul despre
+[cât costă un foraj put de apă](/blog/pret-foraj-put-apa/). Înainte de a cere oferte de la firme
+de foraj din Cluj, vezi și [ce merită să întrebi o firmă de foraj](/blog/cum-alegi-firma-de-foraj/)
+înainte să semnezi.
 
 ## Concluzie
 

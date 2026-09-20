@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Sibiu"
-description: "Cum diferă evaluarea geoelectrică între Depresiunea Sibiului și zona premontană din Mărginimea Sibiului, la poalele Cindrelului și Făgărașului."
+description: "Cum diferă evaluarea geoelectrică între Depresiunea Sibiului și Mărginimea Sibiului, și cât costă un foraj put în Sibiu, la poalele Cindrelului și Făgărașului."
 pubDate: 2026-08-05
 author: "Echipa Detecție Apă"
 ---
@@ -43,6 +43,14 @@ geoelectrice non-invazive, fără foraj de probă. Sibiu este parte din
 
 Costul standard al unei evaluări e detaliat în [Termeni și condiții](/termeni-si-conditii/) și se
 aplică și pentru terenurile din Sibiu.
+
+## Cât costă un foraj put în Sibiu
+
+Orientativ, un foraj put în Sibiu costă 140-180 lei/ml, în funcție de diametrul tubulaturii —
+factorii care influențează prețul final sunt detaliați în articolul despre
+[cât costă un foraj put de apă](/blog/pret-foraj-put-apa/). Mai ales pe terenurile din
+Mărginimea Sibiului, unde accesul poate fi mai dificil, merită cerută o ofertă scrisă, detaliată —
+vezi [ce să întrebi o firmă de foraj](/blog/cum-alegi-firma-de-foraj/) înainte de semnare.
 
 ## Programează o detecție
 

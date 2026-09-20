@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Alba"
-description: "Ce trebuie să știi despre evaluarea geoelectrică a unui teren din județul Alba, de la zona deluroasă din nord până la Valea Mureșului."
+description: "Ce trebuie să știi despre evaluarea geoelectrică a unui teren din județul Alba, cât costă un foraj put în Alba, de la zona deluroasă din nord până la Valea Mureșului."
 pubDate: 2026-07-20
 author: "Echipa Detecție Apă"
 ---
@@ -43,6 +43,14 @@ adâncimea estimată. Lucrăm în mod curent în [Alba și județele învecinate
 Costul standard rămâne cel valabil pentru toate zonele deservite, detaliat în
 [Termeni și condiții](/termeni-si-conditii/). Costul final se confirmă la programare, în funcție
 de locația exactă din județ.
+
+## Cât costă un foraj put în Alba
+
+Ca reper, un foraj put în Alba costă orientativ 140-180 lei/ml, în funcție de diametru, plus
+componentele suplimentare (denisipare, transport, tubulatură) — detaliate în articolul despre
+[prețul unui foraj put de apă](/blog/pret-foraj-put-apa/). Recomandarea noastră, indiferent de
+firma de foraj aleasă, e să verifici întâi [ce trebuie să conțină oferta](/blog/cum-alegi-firma-de-foraj/)
+înainte de semnare.
 
 ## Programează o detecție
 
