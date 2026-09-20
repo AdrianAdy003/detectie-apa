@@ -13,26 +13,36 @@ intervale de preț orientative, valabile pentru 2026, pe care le explicăm mai j
 
 ## Cât costă, în medie, un metru de foraj
 
-Prețul pe metru liniar variază, de regulă, în funcție de diametrul tubulaturii:
+Prețul pe metru liniar variază destul de mult în funcție de diametrul tubulaturii, zonă și firmă —
+ofertele "de la 140-150 lei/ml" afișate de multe firme sunt, de regulă, prețuri promoționale din
+zona București-Ilfov, unde concurența e cea mai mare. În restul țării, inclusiv în Ardeal, prețurile
+reale sunt de obicei mai ridicate:
 
-- **Tubaj 160 mm** — aproximativ 140-160 lei/ml, varianta cea mai des aleasă pentru uz casnic sau
+- **Tubaj 160 mm** — aproximativ 150-220 lei/ml, varianta cea mai des aleasă pentru uz casnic sau
   irigații.
-- **Tubaj 200 mm** — aproximativ 160-180 lei/ml, cu debit mai mare, util pentru consum casnic
+- **Tubaj 200 mm** — aproximativ 180-260 lei/ml, cu debit mai mare, util pentru consum casnic
   susținut.
-- **Tubaj peste 250 mm sau filetat** (nu mufat) — poate ajunge la 200-220 lei/ml sau mai mult.
+- **Tubaj peste 250 mm sau filetat** (nu mufat) — poate ajunge la 300-400 lei/ml sau mai mult, mai
+  ales pe terenuri cu sol dur sau stâncos.
+
+La acestea se adaugă, de regulă, **transportul utilajului** — inclus în București-Ilfov, dar
+facturat separat (frecvent de la 350 lei în sus) pentru restul județelor — și **denisiparea**
+puțului după foraj, care poate porni de la 500 lei dacă nu e inclusă în preț.
 
 Majoritatea firmelor au și o **adâncime minimă facturabilă**, de regulă în jur de 18 metri, chiar
 dacă apa se găsește mai aproape de suprafață.
 
 ## Cât costă un puț complet, în funcție de adâncime
 
-Ca reper orientativ, un foraj de aproximativ 20 de metri, cu materiale și manoperă incluse, se
-situează în jur de 2.800-3.200 lei. Prețul crește, de regulă, nu doar liniar cu adâncimea, ci și
-din cauza utilajelor și timpului suplimentar necesar la adâncimi mari — un foraj de 40-50 de metri
-poate avea un cost pe metru mai ridicat decât unul de 20 de metri.
+Ca reper orientativ, un foraj de aproximativ 20 de metri, cu materiale, manoperă, transport și
+denisipare incluse, se situează undeva între 3.500 și 5.500 lei, în funcție de diametru și de
+zonă. Prețul crește, de regulă, nu doar liniar cu adâncimea, ci și din cauza utilajelor și
+timpului suplimentar necesar la adâncimi mari — un foraj de 40-50 de metri poate avea un cost pe
+metru mai ridicat decât unul de 20 de metri.
 
-Aceste cifre sunt orientative și pot varia în funcție de firmă, zonă și condițiile din teren —
-cea mai sigură metodă rămâne o ofertă scrisă, pentru terenul tău concret.
+Aceste cifre sunt orientative și pot varia semnificativ în funcție de firmă, zonă și condițiile din
+teren — cea mai sigură metodă rămâne o ofertă scrisă, completă, pentru terenul tău concret, nu doar
+prețul pe metru afișat pe un site.
 
 ## Ce influențează prețul final
 

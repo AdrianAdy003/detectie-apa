@@ -46,7 +46,7 @@ de locația exactă din județ.
 
 ## Cât costă un foraj put în Alba
 
-Ca reper, un foraj put în Alba costă orientativ 140-180 lei/ml, în funcție de diametru, plus
+Ca reper, un foraj put în Alba costă orientativ 150-260 lei/ml, în funcție de diametru, plus
 componentele suplimentare (denisipare, transport, tubulatură) — detaliate în articolul despre
 [prețul unui foraj put de apă](/blog/pret-foraj-put-apa/). Recomandarea noastră, indiferent de
 firma de foraj aleasă, e să verifici întâi [ce trebuie să conțină oferta](/blog/cum-alegi-firma-de-foraj/)

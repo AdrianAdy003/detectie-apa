@@ -29,7 +29,7 @@ Pentru context general despre județ, vezi și articolul despre [detecția apei 
 
 ## Cât costă un foraj put în Turda
 
-Pe lângă costul evaluării, orientativ un foraj put în Turda costă 140-180 lei/ml, în funcție de
+Pe lângă costul evaluării, orientativ un foraj put în Turda costă 150-260 lei/ml, în funcție de
 diametrul tubulaturii — vezi articolul despre [cât costă un foraj put de apă](/blog/pret-foraj-put-apa/)
 pentru toți factorii care influențează prețul final. Pe terenul carstic descris mai sus, unde
 adâncimea reală poate diferi mult de estimările "din auzite", merită cerută o ofertă scrisă,

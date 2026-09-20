@@ -46,7 +46,7 @@ aplică și pentru terenurile din Sibiu.
 
 ## Cât costă un foraj put în Sibiu
 
-Orientativ, un foraj put în Sibiu costă 140-180 lei/ml, în funcție de diametrul tubulaturii —
+Orientativ, un foraj put în Sibiu costă 150-260 lei/ml, în funcție de diametrul tubulaturii —
 factorii care influențează prețul final sunt detaliați în articolul despre
 [cât costă un foraj put de apă](/blog/pret-foraj-put-apa/). Mai ales pe terenurile din
 Mărginimea Sibiului, unde accesul poate fi mai dificil, merită cerută o ofertă scrisă, detaliată —
