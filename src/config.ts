@@ -18,9 +18,9 @@ export const CONTACT_EMAIL = 'contact@detectieapa.ro';
 
 // Numărul pentru WhatsApp, în format internațional fără "+" (cerut de wa.me).
 export const WHATSAPP_NUMBER = '40774347851';
-// Link exact cerut, cu mesaj predefinit.
+// Mesaj predefinit, cu spații pentru localitate și suprafață teren, ca să economisim un schimb de mesaje.
 export const WHATSAPP_URL =
-  'https://wa.me/40774347851?text=Bun%C4%83,%20vreau%20o%20detec%C8%9Bie';
+  'https://wa.me/40774347851?text=Bun%C4%83%2C%20vreau%20o%20detec%C8%9Bie.%20Localitate%3A%20___%2C%20suprafa%C8%9B%C4%83%20teren%20aprox.%3A%20___%20mp';
 
 // Zone deservite — se pot extinde ulterior.
 export const SERVICE_AREAS = ['Cluj', 'Alba', 'Mureș', 'Sibiu', 'Bistrița-Năsăud'];

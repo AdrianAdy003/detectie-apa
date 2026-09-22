@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Turda"
-description: "De ce geologia salină și carstul din zona Turda fac o evaluare geoelectrică mai importantă, și cât costă un foraj put în Turda, decât în alte zone ale județului Cluj."
+description: "De ce geologia salină și carstul din zona Turda fac o evaluare geoelectrică mai importantă decât în alte zone ale județului Cluj, și cât costă un foraj de puț în Turda."
 pubDate: 2026-09-02
 author: "Echipa Detecție Apă"
 ---
@@ -27,10 +27,10 @@ Facem evaluări geoelectrice non-invazive pentru terenuri din Turda, [din tot ju
 
 Pentru context general despre județ, vezi și articolul despre [detecția apei subterane în Cluj](/blog/detectie-apa-subterana-cluj/).
 
-## Cât costă un foraj put în Turda
+## Cât costă un foraj de puț în Turda
 
-Pe lângă costul evaluării, orientativ un foraj put în Turda costă 150-260 lei/ml, în funcție de
-diametrul tubulaturii — vezi articolul despre [cât costă un foraj put de apă](/blog/pret-foraj-put-apa/)
+Pe lângă costul evaluării, orientativ un foraj de puț în Turda costă 150-260 lei/ml, în funcție de
+diametrul tubulaturii — vezi articolul despre [cât costă un foraj de puț de apă](/blog/pret-foraj-put-apa/)
 pentru toți factorii care influențează prețul final. Pe terenul carstic descris mai sus, unde
 adâncimea reală poate diferi mult de estimările "din auzite", merită cerută o ofertă scrisă,
 detaliată — vezi [ce să întrebi o firmă de foraj](/blog/cum-alegi-firma-de-foraj/) înainte de

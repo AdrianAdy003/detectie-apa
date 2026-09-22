@@ -75,5 +75,5 @@ negociere și decizie. Câteva avantaje concrete:
 ## Programează o detecție
 
 [Solicită o ofertă](/contact/) sau scrie-ne direct pe
-[WhatsApp](https://wa.me/40774347851?text=Bun%C4%83,%20vreau%20o%20detec%C8%9Bie) pentru o
+[WhatsApp](https://wa.me/40774347851?text=Bun%C4%83%2C%20vreau%20o%20detec%C8%9Bie.%20Localitate%3A%20___%2C%20suprafa%C8%9B%C4%83%20teren%20aprox.%3A%20___%20mp) pentru o
 programare. Vezi și detalii complete despre [serviciul nostru de detecție a apei subterane](/servicii/).
