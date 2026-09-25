@@ -227,6 +227,10 @@ a.card h3 {
   text-decoration: none;
 }
 
+.trust-bar-stars {
+  color: #f2b705;
+}
+
 .trust-bar-rating:hover,
 .trust-bar-rating:focus-visible {
   text-decoration: underline;
