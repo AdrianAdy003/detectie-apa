@@ -8,7 +8,7 @@ imageAlt: "Utilaj de foraj puț cu tubulatură pregătită lângă gaura de fora
 ---
 
 "Cât costă un foraj?" este, de departe, prima întrebare pe care o primim de la cei care iau în
-calcul o fântână sau un puț. Răspunsul scurt e că depinde de mai mulți factori — dar există
+calcul o [fântână sau un puț forat](/blog/put-forat-vs-fantana-sapata-manual/). Răspunsul scurt e că depinde de mai mulți factori — dar există
 intervale de preț orientative, valabile pentru 2026, pe care le explicăm mai jos.
 
 ## Cât costă, în medie, un metru de foraj
@@ -47,10 +47,10 @@ prețul pe metru afișat pe un site.
 ## Ce influențează prețul final
 
 - **Adâncimea reală la care se găsește apa** — motiv pentru care o estimare corectă dinainte
-  contează.
+  contează; vezi și [ce adâncime trebuie să aibă un puț](/blog/ce-adancime-trebuie-sa-aiba-un-put/).
 - **Tipul de sol întâlnit** — un strat stâncos sau instabil prelungește lucrarea.
 - **Denisiparea** — curățarea puțului după foraj, uneori inclusă în preț, alteori facturată
-  separat.
+  separat; vezi și [cât timp durează să se umple un puț](/blog/cat-timp-dureaza-sa-se-umple-un-put/).
 - **Accesul pe teren** — utilajele de foraj sunt mari; un teren greu accesibil poate adăuga costuri
   de logistică.
 - **Cămin, automatizare, transport** — componente care apar frecvent ca linii separate în ofertă.

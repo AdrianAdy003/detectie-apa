@@ -1,7 +1,7 @@
 ---
 title: "Ce informații trebuie să ai înainte de o evaluare pentru puț?"
 description: "Lista completă de informații și pregătiri utile înainte de o evaluare geoelectrică pentru fântână sau puț, ca programarea și vizita la fața locului să decurgă fără piedici."
-pubDate: 2026-09-26
+pubDate: 2026-09-25
 author: "Echipa Detecție Apă"
 image: "/blog/informatii-inainte-de-evaluare-put.png"
 imageAlt: "Proprietar și tehnician verificând împreună o listă de pregătire pe teren, înainte de o evaluare geoelectrică"
@@ -42,6 +42,13 @@ elemente care ar putea influența alegerea punctului.
 
 Nu sunt obligatorii, dar câteva poze cu terenul, mai ales dacă are relief variat sau zone greu
 accesibile, ne ajută să ne facem o idee înainte de vizită.
+
+## Dacă iei în calcul un teren pe care vrei să-l cumperi
+
+Verificarea potențialului de apă subterană merită făcută înainte de achiziție, nu după — vezi și
+[cum verifici dacă un teren are apă înainte să cumperi](/blog/cum-verifici-daca-un-teren-are-apa-inainte-sa-cumperi/).
+Dacă te întrebi și când e cel mai potrivit moment din an pentru evaluare și foraj, avem un articol
+dedicat: [cel mai bun moment din an pentru un foraj](/blog/cel-mai-bun-moment-pentru-foraj/).
 
 ## Lista de verificare, pe scurt
 

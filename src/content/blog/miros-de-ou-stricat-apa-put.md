@@ -7,7 +7,8 @@ author: "Echipa Detecție Apă"
 
 Este una dintre cele mai frecvente probleme raportate de proprietarii de puțuri: apa are un miros
 neplăcut, asemănător cu cel de ouă stricate. Vestea bună este că, de cele mai multe ori, cauza e
-clar identificabilă și gestionabilă.
+clar identificabilă și gestionabilă. Dacă mirosul e mai degrabă de pământ sau mucegai, nu de ouă
+stricate, cauza e alta — vezi [gust sau miros de pământ în apa de puț](/blog/gust-miros-pamant-apa-put/).
 
 ## Cauza: hidrogenul sulfurat
 

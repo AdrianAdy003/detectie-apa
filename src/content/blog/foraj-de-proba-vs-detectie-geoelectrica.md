@@ -25,7 +25,8 @@ cantitatea dorită este semnificativ mai mare, mai ales pe terenuri cu geologie 
 
 Evaluarea geoelectrică [măsoară rezistivitatea electrică a subsolului](/blog/rezistivitate-electrica-a-solului/)
 înainte de a fora, pentru a identifica zonele cu probabilitate ridicată de a conține apă și
-pentru a estima orientativ adâncimea acesteia.
+pentru a estima orientativ adâncimea acesteia. Vezi și [cum arată o măsurătoare geoelectrică în
+teren](/blog/cum-arata-o-masuratoare-geoelectrica-in-teren/), cu poze reale.
 
 **Avantaje:** reduce riscul unui foraj fără rezultat, nu presupune nicio intervenție asupra
 terenului și oferă un raport clar înainte de a angaja costurile de foraj.

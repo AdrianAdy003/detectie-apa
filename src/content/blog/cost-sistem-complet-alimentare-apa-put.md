@@ -28,7 +28,8 @@ pereților forajului. Costul depinde de adâncime și de materialul folosit.
 ## 4. Pompa submersibilă
 
 Alegerea pompei depinde de adâncimea apei și de debitul necesar. O pompă subdimensionată nu face
-față consumului, iar una supradimensionată consumă inutil energie.
+față consumului, iar una supradimensionată consumă inutil energie — detalii în articolul despre
+[pompă submersibilă vs. pompă de suprafață](/blog/pompa-submersibila-vs-pompa-de-suprafata/).
 
 ## 5. Hidroforul sau rezervorul de presiune
 

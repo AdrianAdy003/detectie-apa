@@ -7,7 +7,7 @@ author: "Echipa Detecție Apă"
 
 Găsirea unui punct cu apă subterană este doar o parte a deciziei. Amplasarea efectivă a puțului pe
 teren ține cont și de alți factori practici, care pot face diferența între o sursă de apă sigură
-și una expusă riscurilor.
+și una expusă riscurilor — vezi și [cum alegi locul de foraj pentru o fântână](/blog/cum-alegi-locul-de-foraj/).
 
 ## Distanța față de surse de contaminare
 

@@ -22,7 +22,7 @@ Rezultatul: presiune constantă la robinet, iar pompa pornește doar din când �
 
 ## Din ce componente e format
 
-- **Pompa** — submersibilă (montată direct în puț) sau de suprafață, în funcție de adâncimea la care se află apa.
+- **Pompa** — submersibilă (montată direct în puț) sau de suprafață, în funcție de adâncimea la care se află apa; vezi și [pompă submersibilă vs. pompă de suprafață](/blog/pompa-submersibila-vs-pompa-de-suprafata/).
 - **Rezervorul (vasul) de presiune** — un vas metalic cu o membrană interioară, care înmagazinează apă sub presiune și "amortizează" ciclurile de pornire-oprire ale pompei.
 - **Presostatul** — comutatorul care pornește și oprește pompa în funcție de presiunea din instalație.
 - **Manometrul** — indică presiunea curentă, util pentru verificări rapide.
