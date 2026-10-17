@@ -17,7 +17,7 @@ Pentru a funcționa corect, majoritatea sistemelor au nevoie de o presiune minim
 
 ## Ce elimină, concret, dintr-o apă de puț
 
-- Nitrați și nitriți, frecvenți la fântânile din apropierea zonelor agricole.
+- [Nitrați și nitriți](/blog/nitrati-apa-fantana-pericol-sanatate/), frecvenți la fântânile din apropierea zonelor agricole.
 - Bacterii și viruși, inclusiv cei care ar putea scăpa unei simple dezinfecții.
 - Metale grele și alte substanțe dizolvate, dincolo de fierul și manganul [discutate în articolul dedicat](/blog/apa-cu-fier-mangan-put-filtrare/).
 

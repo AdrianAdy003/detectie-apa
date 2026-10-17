@@ -22,7 +22,8 @@ Debitul necesar este, în general, moderat, suficient pentru consumul unei gospo
 Pentru irigații, prioritatea se mută spre debit — cantitatea de apă disponibilă contează adesea
 mai mult decât gradul de protecție față de suprafață, mai ales dacă apa nu este destinată
 consumului uman direct. Aici, o evaluare pe suprafețe mai mari, cu mai multe puncte verificate,
-are sens pentru a identifica zona cu cel mai mare potențial de debit.
+are sens pentru a identifica zona cu cel mai mare potențial de debit. Dacă ai o fermă mică, forajul
+unui astfel de puț poate fi inclus și în [fonduri europene AFIR pentru irigații](/blog/fonduri-europene-afir-foraj-put-irigatii/).
 
 ## Diferențe practice în evaluare
 

@@ -36,6 +36,8 @@ Refacerea depinde de cantitatea și distribuția precipitațiilor ulterioare, de
 adâncimea stratului. Straturile de suprafață se pot reface relativ rapid, în câteva luni cu
 precipitații normale, în timp ce straturile mai adânci se refac pe perioade mai lungi.
 
+Dacă puțul tău deja dă semne de nivel scăzut sau a secat, vezi [ghidul practic — ce faci concret în această situație](/blog/put-secat-nivel-apa-scazut-ce-faci/).
+
 ## Programează o detecție
 
 Lucrăm indiferent de anotimp sau de condițiile meteo recente — măsurătorile geoelectrice rămân

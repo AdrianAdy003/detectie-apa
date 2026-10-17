@@ -44,7 +44,7 @@ Dacă vrei să vezi cum se încadrează hidroforul în bugetul total al unui sis
 
 - **Lipsa supapei de reținere** — duce la pierderea amorsării și la pornirea "în gol" a pompei.
 - **Presiuni reglate greșit** — un presostat prost calibrat face pompa să pornească prea des sau să nu ofere presiune suficientă.
-- **Montaj în spații neprotejate de îngheț** — o problemă serioasă iarna, mai ales la instalațiile exterioare sau din anexe neîncălzite.
+- **Montaj în spații neprotejate de îngheț** — o problemă serioasă iarna, mai ales la instalațiile exterioare sau din anexe neîncălzite; vezi [cum pregătești instalația pentru iarnă](/blog/pregatire-instalatie-put-pentru-iarna/).
 - **Amorsare incorectă la prima punere în funcțiune** — pompa și conductele trebuie umplute cu apă înainte de pornire, altfel pompa se poate defecta rulând în gol.
 
 ## Întreținere de bază

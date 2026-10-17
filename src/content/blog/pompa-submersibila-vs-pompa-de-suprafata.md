@@ -42,7 +42,7 @@ Pentru majoritatea puțurilor forate despre care discutăm în activitatea noast
 
 Pentru marea majoritate a puțurilor forate din experiența noastră — unde apa se află la câțiva zeci de metri adâncime — pompa submersibilă este alegerea firească, aproape obligatorie din punct de vedere fizic. Pompa de suprafață rămâne o opțiune validă doar pentru surse de apă foarte aproape de suprafață, cum ar fi unele fântâni sau puțuri puțin adânci.
 
-Dacă vrei să vezi cum se încadrează pompa în costul total al instalației, avem [un articol dedicat despre costul complet al unui sistem de apă de la puț](/blog/cost-sistem-complet-alimentare-apa-put/), iar pentru partea de presiune constantă la robinet, [explicăm și rolul hidroforului](/blog/ce-este-hidroforul-cum-alegi/).
+Dacă vrei să vezi cum se încadrează pompa în costul total al instalației, avem [un articol dedicat despre costul complet al unui sistem de apă de la puț](/blog/cost-sistem-complet-alimentare-apa-put/), iar pentru partea de presiune constantă la robinet, [explicăm și rolul hidroforului](/blog/ce-este-hidroforul-cum-alegi/). Dacă pompa submersibilă scoate nisip, vezi și [cauzele și soluțiile pentru această problemă frecventă](/blog/pompa-submersibila-scoate-nisip-cauze/).
 
 ## Programează o detecție
 

@@ -29,7 +29,7 @@ dar devin costisitoare dacă sunt ignorate mult timp.
 ## Semne că puțul are nevoie de intervenție
 
 - Debit vizibil redus față de normal.
-- Apă tulbure, cu sediment, chiar și după ce a curs câteva minute.
+- Apă tulbure, cu sediment, chiar și după ce a curs câteva minute — posibil semn că [pompa scoate nisip din puț](/blog/pompa-submersibila-scoate-nisip-cauze/).
 - Gust sau miros schimbat față de ce era obișnuit.
 - Zgomote neobișnuite ale pompei sau porniri foarte dese.
 

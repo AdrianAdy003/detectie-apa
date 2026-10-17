@@ -41,7 +41,8 @@ verificarea acreditării laboratorului ales, indiferent de opțiune.
 
 O analiză de bază anuală este o practică rezonabilă pentru un puț folosit constant. Merită repetată
 și după evenimente care pot afecta calitatea apei — inundații, lucrări în apropierea puțului sau
-o schimbare vizibilă a gustului, mirosului sau aspectului apei.
+o schimbare vizibilă a gustului, mirosului sau aspectului apei. Dacă apa iese tulbure imediat după
+o ploaie, vezi și [cauzele și soluțiile pentru acest fenomen](/blog/apa-tulbure-put-dupa-ploaie/).
 
 ## Ce ține de noi și ce nu
 

@@ -25,7 +25,7 @@ Practic, fiecare rând din buletin urmează aceeași structură: numele parametr
 
 ## Câteva repere utile la citire
 
-- **Nitrați (NO₃):** un parametru frecvent depășit la fântânile din apropierea zonelor agricole sau a foselor septice — un semn indirect de contaminare cu îngrășăminte sau ape uzate.
+- **Nitrați (NO₃):** un parametru frecvent depășit la fântânile din apropierea zonelor agricole sau a foselor septice — un semn indirect de contaminare cu îngrășăminte sau ape uzate. Vezi [de ce sunt periculoși și ce faci dacă ai nitrați peste limită](/blog/nitrati-apa-fantana-pericol-sanatate/).
 - **pH:** apa potabilă ar trebui să fie aproape neutră; valori mult sub sau peste neutru pot afecta gustul și pot grăbi coroziunea instalațiilor.
 - **Fier și mangan:** discutate pe larg în [articolul dedicat](/blog/apa-cu-fier-mangan-put-filtrare/) — de regulă nu sunt un risc major pentru sănătate în concentrații mici, dar afectează gustul, culoarea și instalațiile.
 - **Bacterii coliforme / E. coli:** orice rezultat pozitiv înseamnă că apa nu e sigură de băut până la remediere — de obicei dezinfecție și retestare.

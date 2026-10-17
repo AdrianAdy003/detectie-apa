@@ -15,7 +15,7 @@ Manganul se comportă similar din punct de vedere chimic, dar lasă de obicei pe
 
 ## Cum îți dai seama că ai această problemă
 
-- Apa are o culoare gălbuie, maronie sau ușor tulbure, mai ales după ce puțul stă nefolosit o vreme.
+- Apa are o culoare gălbuie, maronie sau ușor tulbure, mai ales după ce puțul stă nefolosit o vreme (diferit de [tulbureala legată de ploaie](/blog/apa-tulbure-put-dupa-ploaie/), care are alte cauze).
 - Rămân pete ruginii pe cadă, chiuvetă sau pe rufele albe spălate cu apa respectivă.
 - Se formează depuneri în interiorul conductelor sau al electrocasnicelor care folosesc apă (mașină de spălat, boiler), reducându-le eficiența în timp.
 - Apa are un gust ușor metalic.
