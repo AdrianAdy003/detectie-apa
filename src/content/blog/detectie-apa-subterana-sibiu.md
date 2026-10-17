@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Sibiu"
-description: "Cum diferă evaluarea geoelectrică între Depresiunea Sibiului și Mărginimea Sibiului, la poalele Cindrelului și Făgărașului, și cât costă un foraj de puț în Sibiu."
+description: "Cum diferă evaluarea geoelectrică între Depresiunea Sibiului și Mărginimea Sibiului, la poalele Cindrelului, și cât costă un foraj de puț în Sibiu."
 pubDate: 2026-08-05
 author: "Echipa Detecție Apă"
 ---

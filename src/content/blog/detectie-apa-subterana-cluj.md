@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Cluj"
-description: "Ce presupune o evaluare geoelectrică pentru un teren din județul Cluj și zonele învecinate, înainte de a decide un foraj de fântână sau puț, și cât costă un foraj de puț în Cluj."
+description: "Ce presupune o evaluare geoelectrică pentru un teren din Cluj, înainte de a decide un foraj de fântână sau puț, și cât costă un foraj de puț în zonă."
 pubDate: 2026-07-08
 author: "Echipa Detecție Apă"
 ---

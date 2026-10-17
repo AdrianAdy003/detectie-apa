@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Turda"
-description: "De ce geologia salină și carstul din zona Turda fac o evaluare geoelectrică mai importantă decât în alte zone ale județului Cluj, și cât costă un foraj de puț în Turda."
+description: "De ce geologia salină și carstul din zona Turda fac o evaluare geoelectrică mai importantă decât în restul județului, și cât costă un foraj de puț."
 pubDate: 2026-09-02
 author: "Echipa Detecție Apă"
 ---

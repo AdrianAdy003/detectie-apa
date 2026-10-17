@@ -1,6 +1,6 @@
 ---
-title: "Ce informații trebuie să ai înainte de o evaluare pentru puț?"
-description: "Lista completă de informații și pregătiri utile înainte de o evaluare geoelectrică pentru fântână sau puț, ca programarea și vizita la fața locului să decurgă fără piedici."
+title: "Ce informații ai nevoie înainte de evaluare"
+description: "Lista de informații și pregătiri utile înainte de o evaluare geoelectrică pentru fântână sau puț, ca vizita la fața locului să decurgă fără piedici."
 pubDate: 2026-09-25
 author: "Echipa Detecție Apă"
 image: "/blog/informatii-inainte-de-evaluare-put.png"

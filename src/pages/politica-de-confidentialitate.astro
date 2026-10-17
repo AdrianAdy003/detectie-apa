@@ -9,9 +9,15 @@ import {
   LEGAL_ENTITY_NAME,
   COMPANY_CUI,
 } from '../config';
+import { breadcrumbListJsonLd } from '../lib/jsonld';
 
 const title = 'Politica de confidențialitate';
 const description = `Ce date personale colectează ${SITE_NAME}, în ce scop și ce drepturi ai conform GDPR.`;
+
+const jsonLd = breadcrumbListJsonLd([
+  { name: 'Acasă', path: '/' },
+  { name: 'Politica de confidențialitate', path: '/politica-de-confidentialitate/' },
+]);
 
 const lastUpdated = new Date().toLocaleDateString('ro-RO', {
   year: 'numeric',
@@ -20,7 +26,7 @@ const lastUpdated = new Date().toLocaleDateString('ro-RO', {
 });
 ---
 
-<BaseLayout title={title} description={description} path="/politica-de-confidentialitate/">
+<BaseLayout title={title} description={description} path="/politica-de-confidentialitate/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Politica de confidențialitate</h1>
     <p>Ultima actualizare: {lastUpdated}</p>

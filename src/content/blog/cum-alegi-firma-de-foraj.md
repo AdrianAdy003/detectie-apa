@@ -1,5 +1,5 @@
 ---
-title: "Cum alegi o firmă de foraj de încredere: 7 întrebări de pus înainte să semnezi"
+title: "Cum alegi o firmă de foraj de încredere"
 description: "Ce să întrebi o firmă de foraj puțuri înainte să semnezi un contract, ca să eviți costuri ascunse și un foraj fără rezultat clar."
 pubDate: 2026-09-24
 author: "Echipa Detecție Apă"

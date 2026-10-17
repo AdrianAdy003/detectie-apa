@@ -1,6 +1,6 @@
 ---
-title: "Ce poate și ce nu poate arăta o evaluare geoelectrică?"
-description: "Explicăm clar și onest ce poate și ce nu poate confirma o evaluare geoelectrică a terenului: ce estimăm, ce rămâne necunoscut până la foraj și când ai nevoie de o investigație suplimentară."
+title: "Ce poate și ce nu poate arăta o evaluare"
+description: "Explicăm onest ce poate și ce nu poate confirma o evaluare geoelectrică: ce estimăm și ce rămâne necunoscut până la foraj."
 pubDate: 2026-09-25
 author: "Echipa Detecție Apă"
 image: "/blog/ce-poate-si-ce-nu-poate-arata-o-evaluare-geoelectrica.png"

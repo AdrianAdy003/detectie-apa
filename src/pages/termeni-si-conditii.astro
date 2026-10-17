@@ -13,9 +13,15 @@ import {
   LEGAL_ENTITY_NAME,
   COMPANY_CUI,
 } from '../config';
+import { breadcrumbListJsonLd } from '../lib/jsonld';
 
 const title = 'Termeni și condiții';
 const description = `Termenii și condițiile de utilizare a serviciilor ${SITE_NAME}.`;
+
+const jsonLd = breadcrumbListJsonLd([
+  { name: 'Acasă', path: '/' },
+  { name: 'Termeni și condiții', path: '/termeni-si-conditii/' },
+]);
 
 const lastUpdated = new Date().toLocaleDateString('ro-RO', {
   year: 'numeric',
@@ -24,7 +30,7 @@ const lastUpdated = new Date().toLocaleDateString('ro-RO', {
 });
 ---
 
-<BaseLayout title={title} description={description} path="/termeni-si-conditii/">
+<BaseLayout title={title} description={description} path="/termeni-si-conditii/" jsonLd={jsonLd}>
   <section class="page-header container">
     <h1>Termeni și condiții</h1>
     <p>Ultima actualizare: {lastUpdated}</p>

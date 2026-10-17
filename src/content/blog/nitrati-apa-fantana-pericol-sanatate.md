@@ -1,5 +1,5 @@
 ---
-title: "Nitrați în apa de fântână: cât de periculoși sunt"
+title: "Nitrați în apa de fântână: cât de periculoși"
 description: "Ce sunt nitrații din apa de fântână, de unde apar, de ce sunt periculoși mai ales pentru bebeluși și cum îți dai seama dacă apa ta e afectată."
 pubDate: 2026-10-12
 author: "Echipa Detecție Apă"

@@ -1,5 +1,5 @@
 ---
-title: "Cum pregătești instalația de la puț pentru iarnă"
+title: "Cum pregătești puțul pentru iarnă"
 description: "Pași simpli pentru a proteja puțul, hidroforul și pompa de îngheț înainte de iarnă, ca să eviți reparații costisitoare la primele geruri."
 pubDate: 2026-10-16
 author: "Echipa Detecție Apă"

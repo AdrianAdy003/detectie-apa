@@ -1,6 +1,6 @@
 ---
 title: "Detecție apă subterană în Alba"
-description: "Ce trebuie să știi despre evaluarea geoelectrică a unui teren din județul Alba, de la zona deluroasă din nord până la Valea Mureșului, și cât costă un foraj de puț în Alba."
+description: "Ce trebuie să știi despre evaluarea geoelectrică a unui teren din Alba, de la zona deluroasă din nord până la Valea Mureșului, și cât costă un foraj de puț."
 pubDate: 2026-07-20
 author: "Echipa Detecție Apă"
 ---

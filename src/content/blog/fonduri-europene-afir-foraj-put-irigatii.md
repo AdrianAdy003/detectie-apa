@@ -1,5 +1,5 @@
 ---
-title: "Fonduri AFIR pentru foraj puț de irigații: ghid"
+title: "Fonduri AFIR pentru foraj puț de irigații"
 description: "Cum poți include forajul unui puț de irigații într-un proiect finanțat prin AFIR, ce condiții se cer de obicei și la ce să fii atent înainte să aplici."
 pubDate: 2026-10-14
 author: "Echipa Detecție Apă"

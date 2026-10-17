@@ -1,5 +1,5 @@
 ---
-title: "Apă tulbure la puț după ploaie: cauze și soluții"
+title: "Apă tulbure la puț după ploaie: ce faci"
 description: "De ce se tulbură apa de puț după ploaie, când e o reacție normală și temporară și când indică o problemă reală care trebuie rezolvată."
 pubDate: 2026-10-15
 author: "Echipa Detecție Apă"

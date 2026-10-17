@@ -1,5 +1,5 @@
 ---
-title: "Preț foraj puț de apă în 2026: cât costă pe metru și ce influențează prețul final"
+title: "Preț foraj puț de apă în 2026: cât costă"
 description: "Cât costă, în medie, un metru de foraj de puț în 2026, cum variază prețul în funcție de diametru și adâncime, și ce trebuie să conțină o ofertă completă."
 pubDate: 2026-09-22
 author: "Echipa Detecție Apă"
